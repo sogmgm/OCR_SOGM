@@ -1,0 +1,33 @@
+{
+  "name": "OCR Test with UV",
+  "image": "pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel",
+  
+  "runArgs": [
+    "--gpus=\"device=0\"",
+    "--shm-size=16g"
+  ],
+  
+  "mounts": [
+    "source=/mnt/nvme0/ocr-test,target=/workspace,type=bind"
+  ],
+  
+  "workspaceFolder": "/workspace",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "charliermarsh.ruff"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": ".venv/bin/python"
+      }
+    }
+  },
+  
+  "postCreateCommand": "apt-get update && apt-get install -y curl && curl -LsSf https://astral.sh/uv/install.sh | sh && /root/.local/bin/uv venv && /root/.local/bin/uv pip install pytesseract easyocr paddleocr opencv-python pillow matplotlib jupyter transformers",
+  
+  "remoteUser": "root"
+}
