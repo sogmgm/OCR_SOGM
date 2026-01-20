@@ -1,0 +1,559 @@
+{
+    "input_path": "pdf/초급_KB환율픽.pdf",
+    "page_index": 0,
+    "page_count": 1,
+    "width": 1191,
+    "height": 1685,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "KB 환율픽(Pick)서비스(☐신규/☐변경/☐해지) 신청서",
+            "block_bbox": [
+                146,
+                82,
+                772,
+                120
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>팀원</td><td>팀장</td><td>부점장</td></tr><tr><td></td><td></td><td></td></tr></table>",
+            "block_bbox": [
+                836,
+                46,
+                1131,
+                150
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>项目名称</td><td>项目描述</td><td>预算(万元)</td><td>实际支出(万元)</td><td>备注</td></tr><tr><td>1</td><td>项目A</td><td>1200</td><td>1000</td><td>项目A实际支出1200万元，项目B实际支出1000万元</td></tr><tr><td>2</td><td>项目C</td><td>800</td><td>700</td><td>项目C实际支出800万元，项目D实际支出700万元</td></tr><tr><td>3</td><td>项目E</td><td>500</td><td>400</td><td>项目E实际支出500万元，项目F实际支出400万元</td></tr><tr><td>4</td><td>项目G</td><td>300</td><td>200</td><td>项目G实际支出300万元，项目H实际支出200万元</td></tr><tr><td>5</td><td>项目I</td><td>200</td><td>100</td><td>项目I实际支出200万元，项目J实际支出100万元</td></tr><tr><td>6</td><td>项目K</td><td>100</td><td>80</td><td>项目K实际支出100万元，项目L实际支出80万元</td></tr><tr><td>7</td><td>项目M</td><td>50</td><td>40</td><td>项目M实际支出50万元，项目N实际支出30万元</td></tr><tr><td>8</td><td>项目O</td><td>30</td><td>20</td><td>项目O实际支出30万元，项目P实际支出20万元</td></tr><tr><td>9</td><td>项目Q</td><td>20</td><td>10</td><td>项目Q实际支出20万元，项目R实际支出10万元</td></tr><tr><td>10</td><td>项目S</td><td>10</td><td>8</td><td>项目S实际支出10万元，项目T实际支出8万元</td></tr><tr><td>11</td><td>项目T</td><td>5</td><td>4</td><td>项目T实际支出5万元，项目U实际支出3万元</td></tr><tr><td>12</td><td>项目U</td><td>3</td><td>2</td><td>项目U实际支出3万元，项目V实际支出2万元</td></tr><tr><td>13</td><td>项目V</td><td>2</td><td>1</td><td>项目V实际支出2万元，项目W实际支出1万元</td></tr><tr><td>14</td><td>项目W</td><td>1</td><td>0</td><td>项目W实际支出1万元，项目X实际支出0万元</td></tr><tr><td>15</td><td>项目X</td><td>0</td><td>0</td><td>项目X实际支出0万元，项目Y实际支出1万元</td></tr><tr><td>16</td><td>项目Y</td><td>0</td><td>0</td><td>项目Y实际支出0万元，项目Z实际支出1万元</td></tr><tr><td>17</td><td>项目Z</td><td>0</td><td>0</td><td>项目Z实际支出0万元，项目A实际支出1万元</td></tr><tr><td>18</td><td>项目A</td><td>0</td><td>0</td><td>项目A实际支出0万元，项目B实际支出1万元</td></tr><tr><td>19</td><td>项目B</td><td>0</td><td>0</td><td>项目B实际支出0万元，项目C实际支出1万元</td></tr><tr><td>20</td><td>项目C</td><td>0</td><td>0</td><td>项目C实际支出0万元，项目D实际支出1万元</td></tr><tr><td>21</td><td>项目D</td><td>0</td><td>0</td><td>项目D实际支出0万元，项目E实际支出1万元</td></tr><tr><td>22</td><td>项目E</td><td>0</td><td>0</td><td>项目E实际支出0万元，项目F实际支出1万元</td></tr><tr><td>23</td><td>项目F</td><td>0</td><td>0</td><td>项目F实际支出0万元，项目G实际支出1万元</td></tr><tr><td>24</td><td>项目G</td><td>0</td><td>0</td><td>项目G实际支出0万元，项目H实际支出1万元</td></tr><tr><td>25</td><td>项目H</td><td>0</td><td>0</td><td>项目H实际支出0万元，项目I实际支出1万元</td></tr><tr><td>26</td><td>项目I</td><td>0</td><td>0</td><td>项目I实际支出0万元，项目J实际支出1万元</td></tr><tr><td>27</td><td>项目J</td><td>0</td><td>0</td><td>项目J实际支出0万元，项目K实际支出1万元</td></tr><tr><td>28</td><td>项目K</td><td>0</td><td>0</td><td>项目K实际支出0万元，项目L实际支出1万元</td></tr><tr><td>29</td><td>项目L</td><td>0</td><td>0</td><td>项目L实际支出0万元，项目M实际支出1万元</td></tr><tr><td>30</td><td>项目M</td><td>0</td><td>0</td><td>项目M实际支出0万元，项目N实际支出1万元</td></tr><tr><td>31</td><td>项目N</td><td>0</td><td>0</td><td>项目N实际支出0万元，项目O实际支出1万元</td></tr><tr><td>32</td><td>项目O</td><td>0</td><td>0</td><td>项目O实际支出0万元，项目P实际支出1万元</td></tr><tr><td>33</td><td>项目P</td><td>0</td><td>0</td><td>项目P实际支出0万元，项目Q实际支出1万元</td></tr><tr><td>34</td><td>项目Q</td><td>0</td><td>0</td><td>项目Q实际支出0万元，项目R实际支出1万元</td></tr><tr><td>35</td><td>项目R</td><td>0</td><td>0</td><td>项目R实际支出0万元，项目S实际支出1万元</td></tr><tr><td>36</td><td>项目S</td><td>0</td><td>0</td><td>项目S实际支出0万元，项目T实际支出1万元</td></tr><tr><td>37</td><td>项目T</td><td>0</td><td>0</td><td>项目T实际支出0万元，项目U实际支出1万元</td></tr><tr><td>38</td><td>项目U</td><td>0</td><td>0</td><td>项目U实际支出0万元，项目V实际支出1万元</td></tr><tr><td>39</td><td>项目V</td><td>0</td><td>0</td><td>项目V实际支出0万元，项目W实际支出1万元</td></tr><tr><td>40</td><td>项目W</td><td>0</td><td>0</td><td>项目W实际支出0万元，项目X实际支出1万元</td></tr><tr><td>41</td><td>项目X</td><td>0</td><td>0</td><td>项目X实际支出0万元，项目Y实际支出1万元</td></tr><tr><td>42</td><td>项目Y</td><td>0</td><td>0</td><td>项目Y实际支出0万元，项目Z实际支出1万元</td></tr><tr><td>43</td><td>项目Z</td><td>0</td><td>0</td><td>项目Z实际支出0万元，项目A实际支出1万元</td></tr><tr><td>44</td><td>项目A</td><td>0</td><td>0</td><td>项目A实际支出0万元，项目B实际支出1万元</td></tr><tr><td>45</td><td>项目B</td><td>0</td><td>0</td><td>项目B实际支出0万元，项目C实际支出1万元</td></tr><tr><td>46</td><td>项目C</td><td>0</td><td>0</td><td>项目C实际支出0万元，项目D实际支出1万元</td></tr><tr><td>47</td><td>项目D</td><td>0</td><td>0</td><td>项目D实际支出0万元，项目E实际支出1万元</td></tr><tr><td>48</td><td>项目E</td><td>0</td><td>0</td><td>项目E实际支出0万元，项目F实际支出1万元</td></tr><tr><td>49</td><td>项目F</td><td>0</td><td>0</td><td>项目F实际支出0万元，项目G实际支出1万元</td></tr><tr><td>50</td><td>项目G</td><td>0</td><td>0</td><td>项目G实际支出0万元，项目H实际支出1万元</td></tr><tr><td>51</td><td>项目H</td><td>0</td><td>0</td><td>项目H实际支出0万元，项目I实际支出1万元</td></tr><tr><td>52</td><td>项目I</td><td>0</td><td>0</td><td>项目I实际支出0万元，项目J实际支出1万元</td></tr><tr><td>53</td><td>项目J</td><td>0</td><td>0</td><td>项目J实际支出0万元，项目K实际支出1万元</td></tr><tr><td>54</td><td>项目K</td><td>0</td><td>0</td><td>项目K实际支出0万元，项目L实际支出1万元</td></tr><tr><td>55</td><td>项目L</td><td>0</td><td>0</td><td>项目L实际支出0万元，项目M实际支出1万元</td></tr><tr><td>56</td><td>项目M</td><td>0</td><td>0</td><td>项目M实际支出0万元，项目N实际支出1万元</td></tr><tr><td>57</td><td>项目N</td><td>0</td><td>0</td><td>项目N实际支出0万元，项目O实际支出1万元</td></tr><tr><td>58</td><td>项目O</td><td>0</td><td>0</td><td>项目O实际支出0万元，项目P实际支出1万元</td></tr><tr><td>59</td><td>项目P</td><td>0</td><td>0</td><td>项目P实际支出0万元，项目Q实际支出1万元</td></tr><tr><td>60</td><td>项目Q</td><td>0</td><td>0</td><td>项目Q实际支出0万元，项目R实际支出1万元</td></tr><tr><td>61</td><td>项目R</td><td>0</td><td>0</td><td>项目R实际支出0万元，项目S实际支出1万元</td></tr><tr><td>62</td><td>项目S</td><td>0</td><td>0</td><td>项目S实际支出0万元，项目T实际支出1万元</td></tr><tr><td>63</td><td>项目T</td><td>0</td><td>0</td><td>项目T实际支出0万元，项目U实际支出1万元</td></tr><tr><td>64</td><td>项目U</td><td>0</td><td>0</td><td>项目U实际支出0万元，项目V实际支出1万元</td></tr><tr><td>65</td><td>项目V</td><td>0</td><td>0</td><td>项目V实际支出0万元，项目W实际支出1万元</td></tr><tr><td>66</td><td>项目W</td><td>0</td><td>0</td><td>项目W实际支出0万元，项目X实际支出1万元</td></tr><tr><td>67</td><td>项目X</td><td>0</td><td>0</td><td>项目X实际支出0万元，项目Y实际支出1万元</td></tr><tr><td>68</td><td>项目Y</td><td>0</td><td>0</td><td>项目Y实际支出0万元，项目Z实际支出1万元</td></tr><tr><td>69</td><td>项目Z</td><td>0</td><td>0</td><td>项目Z实际支出0万元，项目A实际支出1万元</td></tr><tr><td>70</td><td>项目A</td><td>0</td><td>0</td><td>项目A实际支出0万元，项目B实际支出1万元</td></tr><tr><td>71</td><td>项目B</td><td>0</td><td>0</td><td>项目B实际支出0万元，项目C实际支出1万元</td></tr><tr><td>72</td><td>项目C</td><td>0</td><td>0</td><td>项目C实际支出0万元，项目D实际支出1万元</td></tr><tr><td>73</td><td>项目D</td><td>0</td><td>0</td><td>项目D实际支出0万元，项目E实际支出1万元</td></tr><tr><td>74</td><td>项目E</td><td>0</td><td>0</td><td>项目E实际支出0万元，项目F实际支出1万元</td></tr><tr><td>75</td><td>项目F</td><td>0</td><td>0</td><td>项目F实际支出0万元，项目G实际支出1万元</td></tr><tr><td>76</td><td>项目G</td><td>0</td><td>0</td><td>项目G实际支出0万元，项目H实际支出1万元</td></tr><tr><td>77</td><td>项目H</td><td>0</td><td>0</td><td>项目H实际支出0万元，项目I实际支出1万元</td></tr><tr><td>78</td><td>项目I</td><td>0</td><td>0</td><td>项目I实际支出0万元，项目J实际支出1万元</td></tr><tr><td>79</td><td>项目J</td><td>0</td><td>0</td><td>项目J实际支出0万元，项目K实际支出1万元</td></tr><tr><td>80</td><td>项目K</td><td>0</td><td>0</td><td>项目K实际支出0万元，项目L实际支出1万元</td></tr><tr><td>81</td><td>项目L</td><td>0</td><td>0</td><td>项目L实际支出0万元，项目M实际支出1万元</td></tr><tr><td>82</td><td>项目M</td><td>0</td><td>0</td><td>项目M实际支出0万元，项目N实际支出1万元</td></tr><tr><td>83</td><td>项目N</td><td>0</td><td>0</td><td>项目N实际支出0万元，项目O实际支出1万元</td></tr><tr><td>84</td><td>项目O</td><td>0</td><td>0</td><td>项目O实际支出0万元，项目P实际支出1万元</td></tr><tr><td>85</td><td>项目P</td><td>0</td><td>0</td><td>项目P实际支出0万元，项目Q实际支出1万元</td></tr><tr><td>86</td><td>项目Q</td><td>0</td><td>0</td><td>项目Q实际支出0万元，项目R实际支出1万元</td></tr><tr><td>87</td><td>项目R</td><td>0</td><td>0</td><td>项目R实际支出0万元，项目S实际支出1万元</td></tr><tr><td>88</td><td>项目S</td><td>0</td><td>0</td><td>项目S实际支出0万元，项目T实际支出1万元</td></tr><tr><td>89</td><td>项目T</td><td>0</td><td>0</td><td>项目T实际支出0万元，项目U实际支出1万元</td></tr><tr><td>90</td><td>项目U</td><td>0</td><td>0</td><td>项目U实际支出0万元，项目V实际支出1万元</td></tr><tr><td>91</td><td>项目V</td><td>0</td><td>0</td><td>项目V实际支出0万元，项目W实际支出1万元</td></tr><tr><td>92</td><td>项目W</td><td>0</td><td>0</td><td>项目W实际支出0万元，项目X实际支出1万元</td></tr><tr><td>93</td><td>项目X</td><td>0</td><td>0</td><td>项目X实际支出0万元，项目Y实际支出1万元</td></tr><tr><td>94</td><td>项目Y</td><td>0</td><td>0</td><td>项目Y实际支出0万元，项目Z实际支出1万元</td></tr><tr><td>95</td><td>项目Z</td><td>0</td><td>0</td><td>项目Z实际支出0万元，项目A实际支出1万元</td></tr><tr><td>96</td><td>项目A</td><td>0</td><td>0</td><td>项目A实际支出0万元，项目B实际支出1万元</td></tr><tr><td>97</td><td>项目B</td><td>0</td><td>0</td><td>项目B实际支出0万元，项目C实际支出1万元</td></tr><tr><td>98</td><td>项目C</td><td>0</td><td>0</td><td>项目C实际支出0万元，项目D实际支出1万元</td></tr><tr><td>99</td><td>项目D</td><td>0</td><td>0</td><td>项目D实际支出0万元，项目E实际支出1万元</td></tr><tr><td>100</td><td>项目E</td><td>0</td><td>0</td><td>项目E实际支出0万元，项目F实际支出1万元</td></tr><tr><td>101</td><td>项目F</td><td>0</td><td>0</td><td>项目F实际支出0万元，项目G实际支出1万元</td></tr><tr><td>102</td><td>项目G</td><td>0</td><td>0</td><td>项目G实际支出0万元，项目H实际支出1万元</td></tr><tr><td>103</td><td>项目H</td><td>0</td><td>0</td><td>项目H实际支出0万元，项目I实际支出1万元</td></tr><tr><td>104</td><td>项目I</td><td>0</td><td>0</td><td>项目I实际支出0万元，项目J实际支出1万元</td></tr><tr><td>105</td><td>项目J</td><td>0</td><td>0</td><td>项目J实际支出0万元，项目K实际支出1万元</td></tr><tr><td>106</td><td>项目K</td><td>0</td><td>0</td><td>项目K实际支出0万元，项目L实际支出1万元</td></tr><tr><td>107</td><td>项目L</td><td>0</td><td>0</td><td>项目L实际支出0万元，项目M实际支出1万元</td></tr><tr><td>108</td><td>项目M</td><td>0</td><td>0</td><td>项目M实际支出0万元，项目N实际支出1万元</td></tr><tr><td>109</td><td>项目N</td><td>0</td><td>0</td><td>项目N实际支出0万元，项目O实际支出1万元</td></tr><tr><td>110</td><td>项目O</td><td>0</td><td>0</td><td>项目O实际支出0万元，项目P实际支出1万元</td></tr><tr><td>111</td><td>项目P</td><td>0</td><td>0</td><td>项目P实际支出0万元，项目Q实际支出1万元</td></tr><tr><td>112</td><td>项目Q</td><td>0</td><td>0</td><td>项目Q实际支出0万元，项目R实际支出1万元</td></tr><tr><td>113</td><td>项目R</td><td>0</td><td>0</td><td>项目R实际支出0万元，项目S实际支出1万元</td></tr><tr><td>114</td><td>项目S</td><td>0</td><td>0</td><td>项目S实际支出0万元，项目T实际支出1万元</td></tr><tr><td>115</td><td>项目T</td><td>0</td><td>0</td><td>项目T实际支出0万元，项目U实际支出1万元</td></tr><tr><td>116</td><td>项目U</td><td>0</td><td>0</td><td>项目U实际支出0万元，项目V实际支出1万元</td></tr><tr><td>117</td><td>项目V</td><td>0</td><td>0</td><td>项目V实际支出0万元，项目W实际支出1万元</td></tr><tr><td>118</td><td>项目W</td><td>0</td><td>0</td><td>项目W实际支出0万元，项目X实际支出1万元</td></tr><tr><td>119</td><td>项目X</td><td>0</td><td>0</td><td>项目X实际支出0万元，项目Y实际支出1万元</td></tr><tr><td>120</td><td>项目Y</td><td>0</td><td>0</td><td>项目Y实际支出0万元，项目Z实际支出1万元</td></tr><tr><td>121</td><td>项目Z</td><td>0</td><td>0</td><td>项目Z实际支出0万元，项目A实际支出1万元</td></tr><tr><td>122</td><td>项目A</td><td>0</td><td>0</td><td>项目A实际支出0万元，项目B实际支出1万元</td></tr><tr><td>123</td><td>项目B</td><td>0</td><td>0</td><td>项目B实际支出0万元，项目C实际支出1万元</td></tr><tr><td>124</td><td>项目C</td><td>0</td><td>0</td><td>项目C实际支出0万元，项目D实际支出1万元</td></tr><tr><td>125</td><td>项目D</td><td>0</td><td>0</td><td>项目D实际支出0万元，项目E实际支出1万元</td></tr><tr><td>126</td><td>项目E</td><td>0</td><td>0</td><td>项目E实际支出0万元，项目F实际支出1万元</td></tr><tr><td>127</td><td>项目F</td><td>0</td><td>0</td><td>项目F实际支出0万元，项目G实际支出1万元</td></tr><tr><td>128</td><td>项目G</td><td>0</td><td>0</td><td>项目G实际支出0万元，项目H实际支出1万元</td></tr><tr><td>129</td><td>项目H</td><td>0</td><td>0</td><td>项目H实际支出0万元，项目I实际支出1万元</td></tr><tr><td>130</td><td>项目I</td><td>0</td><td>0</td><td>项目I实际支出0万元，项目J实际支出1万元</td></tr><tr><td>131</td><td>项目J</td><td>0</td><td>0</td><td>项目J实际支出0万元，项目K实际支出1万元</td></tr><tr><td>132</td><td>项目K</td><td>0</td><td>0</td><td>项目K实际支出0万元，项目L实际支出1万元</td></tr><tr><td>133</td><td>项目L</td><td>0</td><td>0</td><td>项目L实际支出0万元，项目M实际支出1万元</td></tr><tr><td>134</td><td>项目M</td><td>0</td><td>0</td><td>项目M实际支出0万元，项目N实际支出1万元</td></tr><tr><td>135</td><td>项目N</td><td>0</td><td>0</td><td>项目N实际支出0万元，项目O实际支出1万元</td></tr><tr><td>136</td><td>项目O</td><td>0</td><td>0</td><td>项目O实际支出0万元，项目P实际支出1万元</td></tr><tr><td>137</td><td>项目P</td><td>0</td><td>0</td><td>项目P实际支出0万元，项目Q实际支出1万元</td></tr><tr><td>138</td><td>项目Q</td><td>0</td><td>0</td><td>项目Q实际支出0万元，项目R实际支出1万元</td></tr><tr><td>139</td><td>项目R</td><td>0</td><td>0</td><td>项目R实际支出0万元，项目S实际支出1万元</td></tr><tr><td>140</td><td>项目S</td><td>0</td><td>0</td><td>项目S实际支出0万元，项目T实际支出1万元</td></tr><tr><td>141</td><td>项目T</td><td>0</td><td>0</td><td>项目T实际支出0万元，项目U实际支出1万元</td></tr><tr><td>142</td><td>项目U</td><td>0</td><td>0</td><td>项目U实际支出0万元，项目V实际支出1万元</td></tr><tr><td>143</td><td>项目V</td><td>0</td><td>0</td><td>项目V实际支出0万元，项目W实际支出1万元</td></tr><tr><td>144</td><td>项目W</td><td>0</td><td>0</td><td>项目W实际支出0万元，项目X实际支出1万元</td></tr><tr><td>145</td><td>项目X</td><td>0</td><td>0</td><td>项目X实际支出0万元，项目Y实际支出1万元</td></tr><tr><td>146</td><td>项目Y</td><td>0</td><td>0</td><td>项目Y实际支出0万元，项目Z实际支出1万元</td></tr><tr><td>147</td><td>项目Z</td><td>0</td><td>0</td><td>项目Z实际支出0万元，项目A实际支出1万元</td></tr><tr><td>148</td><td>项目A</td><td>0</td><td>0</td><td>项目A实际支出0万元，项目B实际支出1万元</td></tr><tr><td>149</td><td>项目B</td><td>0</td><td>0</td><td>项目B实际支出0万元，项目C实际支出1万元</td></tr><tr><td>150</td><td>项目C</td><td>0</td><td>0</td><td>项目C实际支出0万元，项目D实际支出1万元</td></tr><tr><td>151</td><td>项目D</td><td>0</td><td>0</td><td>项目D实际支出0万元，项目E实际支出1万元</td></tr><tr><td>152</td><td>项目E</td><td>0</td><td>0</td><td>项目E实际支出0万元，项目F实际支出1万元</td></tr><tr><td>153</td><td>项目F</td><td>0</td><td>0</td><td>项目F实际支出0万元，项目G实际支出1万元</td></tr><tr><td>154</td><td>项目G</td><td>0</td><td>0</td><td>项目G实际支出0万元，项目H实际支出1万元</td></tr><tr><td>155</td><td>项目H</td><td>0</td><td>0</td><td>项目H实际支出0万元，项目I实际支出1万元</td></tr><tr><td>156</td><td>项目I</td><td>0</td><td>0</td><td>项目I实际支出0万元，项目J实际支出1万元</td></tr><tr><td>157</td><td>项目J</td><td>0</td><td>0</td><td>项目J实际支出0万元，项目K实际支出1万元</td></tr><tr><td>158</td><td>项目K</td><td>0</td><td>0</td><td>项目K实际支出0万元，项目L实际支出1万元</td></tr><tr><td>159</td><td>项目L</td><td>0</td><td>0</td><td>&lt;nl&gt;</td></tr></table>",
+            "block_bbox": [
+                89,
+                166,
+                1131,
+                256
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "☑ 고객 기본사항",
+            "block_bbox": [
+                92,
+                262,
+                265,
+                291
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>고객(업체)명</td><td></td><td>생년월일(사업자번호)</td><td></td></tr><tr><td>핸드폰번호</td><td></td><td>SMS 통지여부</td><td>☐ 예 ☐ 아니오</td></tr></table>",
+            "block_bbox": [
+                89,
+                297,
+                1113,
+                386
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "※본 서비스와 관련한 통지는 상기 연락처로 통보되오니 등록한 연락처가 변경되는 경우 즉시 당행에",
+            "block_bbox": [
+                90,
+                388,
+                933,
+                412
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "내점 하시어 변경 등록하시기 바랍니다.(통지대상: ①“거래체결 및 결제완료”시 ②“체결거부”시)",
+            "block_bbox": [
+                116,
+                411,
+                921,
+                437
+            ],
+            "block_id": 6,
+            "block_order": 3,
+            "group_id": 6
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■거래통화 및 최대거래한도 설정",
+            "block_bbox": [
+                91,
+                468,
+                431,
+                496
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>☐ USD/KRW</td><td>☐ JPY/KRW</td><td>☐ EUR/KRW</td><td>☐ GBP/KRW</td><td>☐ CAD/KRW</td></tr><tr><td>☐ AUD/KRW</td><td>☐ NZD/KRW</td><td>☐ CNY/KRW</td><td>☐ HKD/KRW</td><td>☐ CHF/KRW</td></tr><tr><td>최대거래한도</td><td>(USD 환산금액 기준)</td><td colspan=\"3\">USD 100~1,000,000 범위 내 USD 1 단위로 설정가능 미설정시 최대한도(USD1,000,000)로 자동 설정됩니다.</td></tr></table>",
+            "block_bbox": [
+                96,
+                503,
+                1114,
+                630
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "※최대거래한도 설정은 신청통화 동일하게 적용되며, 일별기준이 아닌 건 별 거래가능 금액임을 유의하시기 바랍니다.",
+            "block_bbox": [
+                82,
+                632,
+                1056,
+                657
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "☑ 결제계좌 지정",
+            "block_bbox": [
+                92,
+                677,
+                266,
+                706
+            ],
+            "block_id": 10,
+            "block_order": 5,
+            "group_id": 10
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>원화계좌번호</td><td></td><td>외화계좌번호</td><td></td></tr></table>",
+            "block_bbox": [
+                89,
+                719,
+                1113,
+                769
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11
+        },
+        {
+            "block_label": "text",
+            "block_content": "※ KB 환율픽(Pick) 서비스의 매매거래는 주문체결 시, 해당 지정계좌에서 자동 결제처리 됩니다.",
+            "block_bbox": [
+                91,
+                775,
+                895,
+                801
+            ],
+            "block_id": 12,
+            "block_order": 6,
+            "group_id": 12
+        },
+        {
+            "block_label": "text",
+            "block_content": "[KB환율픽(Pick) 서비스 이용약관 제7조 제7항 참조]",
+            "block_bbox": [
+                99,
+                802,
+                576,
+                828
+            ],
+            "block_id": 13,
+            "block_order": 7,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "본인은 은행으로부터 'KB 환율픽(Pick) 서비스 이용약관'을 교부 받아 동 약관에 대한 내용을 충분히 설명 받고 그 내용을 숙지하였습니다. 이에 동 약관의 내용을 준수할 것을 확약하며 'KB 환율픽(Pick) 서비스'이용(변경/해지)을 신청합니다.",
+            "block_bbox": [
+                79,
+                1371,
+                1108,
+                1425
+            ],
+            "block_id": 14,
+            "block_order": 8,
+            "group_id": 14
+        },
+        {
+            "block_label": "text",
+            "block_content": "※ 은행사용란",
+            "block_bbox": [
+                81,
+                1440,
+                201,
+                1465
+            ],
+            "block_id": 15,
+            "block_order": 9,
+            "group_id": 15
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                85,
+                1478,
+                437,
+                1590
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16
+        },
+        {
+            "block_label": "text",
+            "block_content": "년 월 일",
+            "block_bbox": [
+                838,
+                1477,
+                978,
+                1506
+            ],
+            "block_id": 17,
+            "block_order": 10,
+            "group_id": 17
+        },
+        {
+            "block_label": "text",
+            "block_content": "고객(업체)명:",
+            "block_bbox": [
+                692,
+                1535,
+                833,
+                1564
+            ],
+            "block_id": 18,
+            "block_order": 11,
+            "group_id": 18
+        },
+        {
+            "block_label": "text",
+            "block_content": "(인.서명)",
+            "block_bbox": [
+                991,
+                1535,
+                1072,
+                1564
+            ],
+            "block_id": 19,
+            "block_order": 12,
+            "group_id": 19
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                86,
+                1595,
+                433,
+                1644
+            ],
+            "block_id": 20,
+            "block_order": null,
+            "group_id": 20
+        },
+        {
+            "block_label": "footer",
+            "block_content": "05401024",
+            "block_bbox": [
+                441,
+                1623,
+                508,
+                1641
+            ],
+            "block_id": 21,
+            "block_order": null,
+            "group_id": 21
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.823556661605835,
+                "coordinate": [
+                    146.64898681640625,
+                    82.5908432006836,
+                    772.4474487304688,
+                    120.0555191040039
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8892219066619873,
+                "coordinate": [
+                    836.3331298828125,
+                    46.88846969604492,
+                    1131.6143798828125,
+                    150.4065399169922
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.5314033031463623,
+                "coordinate": [
+                    89.010986328125,
+                    166.75302124023438,
+                    1131.636474609375,
+                    256.1914367675781
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8332464098930359,
+                "coordinate": [
+                    92.34378051757812,
+                    262.5712890625,
+                    265.9015197753906,
+                    291.16650390625
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9804855585098267,
+                "coordinate": [
+                    89.22991943359375,
+                    297.24188232421875,
+                    1113.3525390625,
+                    386.72454833984375
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5277461409568787,
+                "coordinate": [
+                    90.227783203125,
+                    388.8360900878906,
+                    933.96240234375,
+                    412.4775695800781
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5268862247467041,
+                "coordinate": [
+                    116.40106201171875,
+                    411.01239013671875,
+                    921.0844116210938,
+                    437.14605712890625
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.662118136882782,
+                "coordinate": [
+                    91.85311889648438,
+                    468.12628173828125,
+                    431.5162658691406,
+                    496.95477294921875
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9839366674423218,
+                "coordinate": [
+                    96.479736328125,
+                    503.8401794433594,
+                    1114.709228515625,
+                    630.3055419921875
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7321469187736511,
+                "coordinate": [
+                    82.36111450195312,
+                    632.5121459960938,
+                    1056.977294921875,
+                    657.7739868164062
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9236990213394165,
+                "coordinate": [
+                    92.72335815429688,
+                    677.5501708984375,
+                    266.2452697753906,
+                    706.6124267578125
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9594327211380005,
+                "coordinate": [
+                    89.8262939453125,
+                    719.1776123046875,
+                    1113.3900146484375,
+                    769.1693115234375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5039833188056946,
+                "coordinate": [
+                    91.25164794921875,
+                    775.6965942382812,
+                    895.7526245117188,
+                    801.8971557617188
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5598641633987427,
+                "coordinate": [
+                    99.8482666015625,
+                    802.9940185546875,
+                    576.7408447265625,
+                    828.2762451171875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9729264378547668,
+                "coordinate": [
+                    79.04400634765625,
+                    1371.046630859375,
+                    1108.388671875,
+                    1425.241943359375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9168936014175415,
+                "coordinate": [
+                    81.92584228515625,
+                    1440.63232421875,
+                    201.54666137695312,
+                    1465.86669921875
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.7311780452728271,
+                "coordinate": [
+                    85.65634155273438,
+                    1478.139892578125,
+                    437.4190979003906,
+                    1590.582763671875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.909259557723999,
+                "coordinate": [
+                    838.4073486328125,
+                    1477.9549560546875,
+                    978.6270751953125,
+                    1506.0181884765625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9251613020896912,
+                "coordinate": [
+                    692.748779296875,
+                    1535.7318115234375,
+                    833.966552734375,
+                    1564.1861572265625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9148024916648865,
+                "coordinate": [
+                    991.114501953125,
+                    1535.94287109375,
+                    1072.259033203125,
+                    1564.328125
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.9123181104660034,
+                "coordinate": [
+                    86.84648132324219,
+                    1595.1622314453125,
+                    433.69061279296875,
+                    1644.5364990234375
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7237280011177063,
+                "coordinate": [
+                    441.77520751953125,
+                    1623.4583740234375,
+                    508.81927490234375,
+                    1641.1761474609375
+                ]
+            }
+        ]
+    }
+}

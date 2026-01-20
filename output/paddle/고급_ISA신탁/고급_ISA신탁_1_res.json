@@ -1,0 +1,463 @@
+{
+    "input_path": "pdf/고급_ISA신탁.pdf",
+    "page_index": 1,
+    "page_count": 4,
+    "width": 1080,
+    "height": 1560,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "상품 주요내용",
+            "block_bbox": [
+                49,
+                69,
+                191,
+                101
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "text",
+            "block_content": "만 19세 이상 거주자\n(만15세이상 만19세미만\n거주자 중 근로소득자)",
+            "block_bbox": [
+                63,
+                148,
+                249,
+                216
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "전 금융기관 전 유형 중 1인 1계좌만 가입가능\n3년 (의무가입기간) 이상\n(연장가능)",
+            "block_bbox": [
+                310,
+                156,
+                511,
+                211
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                571,
+                156,
+                764,
+                210
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "연도별 최대2천만원\n(이월가능, 총 한도1억원)",
+            "block_bbox": [
+                831,
+                156,
+                1014,
+                210
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "최저가입금액",
+            "block_bbox": [
+                95,
+                233,
+                216,
+                263
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "세제혜택",
+            "block_bbox": [
+                369,
+                233,
+                452,
+                262
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "최대손실가능금액",
+            "block_bbox": [
+                588,
+                233,
+                746,
+                264
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7
+        },
+        {
+            "block_label": "text",
+            "block_content": "신탁보수",
+            "block_bbox": [
+                883,
+                233,
+                965,
+                263
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "1만원",
+            "block_bbox": [
+                127,
+                284,
+                185,
+                313
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9
+        },
+        {
+            "block_label": "text",
+            "block_content": "비과세\n(유형별 비과세한도 초과시 분리과세)",
+            "block_bbox": [
+                314,
+                269,
+                510,
+                336
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10
+        },
+        {
+            "block_label": "text",
+            "block_content": "운용자산에 따라 원금전액 손실가능",
+            "block_bbox": [
+                585,
+                274,
+                750,
+                329
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11
+        },
+        {
+            "block_label": "text",
+            "block_content": "운용자산별로 다름\n(연0.1%~0.7%)",
+            "block_bbox": [
+                840,
+                273,
+                1007,
+                328
+            ],
+            "block_id": 12,
+            "block_order": 13,
+            "group_id": 12
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "가입대상 및 유형",
+            "block_bbox": [
+                46,
+                368,
+                219,
+                400
+            ],
+            "block_id": 13,
+            "block_order": 14,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "직전 3개년도 중 1회이상 금융소득종합과세대상자는 가입불가",
+            "block_bbox": [
+                333,
+                371,
+                823,
+                399
+            ],
+            "block_id": 14,
+            "block_order": 15,
+            "group_id": 14
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>구 분</td><td>일반형</td><td>서민형</td><td>농어민형</td></tr><tr><td>대상</td><td>·만 19세 이상 거주자\n·만 15세 이상 만 19세 미만인 거주자\n:직전년도 근로소득이 있는자</td><td>·만 19세 이상 소득이 없는 자\n·총급여 5천만원 이하 근로소득자\n·종합소득금액 3천 8백만원 이하 사업소득자</td><td>·종합소득금액 3천8백만원 이하 농어민</td></tr><tr><td>비과세한도</td><td>200만원</td><td>400만원</td><td>400만원</td></tr><tr><td>의무가입기간</td><td colspan=\"3\">3년</td></tr><tr><td>가입자격 확인서류</td><td>·만 19세 이상 거주자: 확인서류 필요 없음\n·만 15세 이상 만 19세 미만인 거주자\n·소득확인증명서(개인종합자산관리계좌 가입용)</td><td>소득확인증명서\n(개인종합자산관리계좌 가입용)</td><td>농어업인확인서, 농어업경영체 등록확인서 + 소득확인증명서\n(개인종합자산관리계좌 가입용)</td></tr></table>",
+            "block_bbox": [
+                31,
+                414,
+                1046,
+                689
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "상품세부내용",
+            "block_bbox": [
+                49,
+                730,
+                184,
+                762
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>구분</td><td colspan=\"6\">내용</td></tr><tr><td>신탁기간</td><td colspan=\"6\">· 가입기간은 3년 이상으로 정하되, 기간의 제한은 없음(신탁기간 연장은 ISA계좌의 만기일 3개월전부터 만기일 전영업일까지 가능)</td></tr><tr><td>납입한도</td><td colspan=\"6\">· 총 납입한도 1억원(연간한도 2천만원) 범위내에서 납입 가능하며, 미납입 금액에 대해 이월 납입 가능※ 단, 재영저축 및 장기집합투자증권저축에 가입한 거주자는 총 납입한도에서 해당 상품의 연간 계약금액을 차감한 금액으로 함</td></tr><tr><td rowspan=\"3\">최저가입금액</td><td colspan=\"6\">· ISA신탁형 계좌의 최저가입금액은 1만원이며, 각 운용자산별 최저가입금액은 다음과 같음</td></tr><tr><td>타행정기예금</td><td>ETF</td><td>파생형(ELS 등)</td><td>펀드</td><td colspan=\"2\">주식</td></tr><tr><td>1만원</td><td>10만원(일부 30~50만원)</td><td>100만원</td><td>10만원</td><td colspan=\"2\">50만원/100만원/200만원(상품별 상이)</td></tr><tr><td rowspan=\"2\">세제혜택</td><td colspan=\"6\">· 만기여부와 관계없이 3년 경과 후 해지시 손익통산* 후 손이익에 대해 비과세한도까지 비과세 혜택이 부여되며, 비과세 한도를 초과하는 손이익에 대해서는 9.9%(지방소득세 포함)분리 과세됨</td></tr><tr><td colspan=\"6\">* 손익통산: 금융상품 운용 결과 발생한 이익과 손실을 합산하여 계산. 국내 주식형 펀드 및 ETF 에서 발생한 비과세 이익과 손실은 통산대상이 아니나, 국내상장주식에서 발생한 손실은 통산대상임</td></tr><tr><td rowspan=\"6\">신탁보수</td><td colspan=\"6\">· ISA 신탁형 계좌내 운용자산별 신탁보수가 발생(후취)되며, 각 운용자산별 평균잔액(운용지시 원본기준)에 보수 율을 곱하여 산정</td></tr><tr><td colspan=\"6\">· 해지 및 중도인출시 또는 매년 3월 31일까지 운용자산별 발생한 계좌 전체의 보수금액을 정산하여 4월 마지막 영업일에 일괄 취득</td></tr><tr><td colspan=\"6\">· 운용자산별 신탁보수 범위는 다음과 같으며, 탁행정기예금 및 현금성 자산을 제외한 운용자산의 보수는 개별 설명서에서 확인 가능(운용자산에 따라 추가 보수가 발생할 수 있음)</td></tr><tr><td>현금성자산</td><td>타행정기예금</td><td>ELS</td><td>ELB</td><td>ETF</td><td>펀드* 주식</td></tr><tr><td>연 0.1%</td><td>연 0.1%</td><td>연 0.7% 이하</td><td>연 0.3% 이하</td><td>연 0.7% 이하</td><td>연 0.3% 이하</td></tr><tr><td colspan=\"6\">* 선취판매수수료가 부과되는 A클래스 펀드 운용시, 선취판매수수료 제외하고 펀드 보수가 부과됨(신탁보수 별도)</td></tr></table>",
+            "block_bbox": [
+                35,
+                777,
+                1042,
+                1480
+            ],
+            "block_id": 17,
+            "block_order": null,
+            "group_id": 17
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5141080021858215,
+                "coordinate": [
+                    49.91156005859375,
+                    69.71888732910156,
+                    191.38278198242188,
+                    101.8973388671875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5790366530418396,
+                "coordinate": [
+                    63.37367248535156,
+                    148.5105438232422,
+                    249.0066375732422,
+                    216.08204650878906
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4777982831001282,
+                "coordinate": [
+                    310.77947998046875,
+                    156.50631713867188,
+                    511.9200439453125,
+                    211.07052612304688
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6037021279335022,
+                "coordinate": [
+                    571.7224731445312,
+                    156.6167755126953,
+                    764.6460571289062,
+                    210.6724395751953
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5495551824569702,
+                "coordinate": [
+                    831.1640625,
+                    156.694091796875,
+                    1014.717041015625,
+                    210.89764404296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.673974871635437,
+                "coordinate": [
+                    95.62149047851562,
+                    233.52593994140625,
+                    216.3248291015625,
+                    263.3123779296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.41229671239852905,
+                "coordinate": [
+                    369.81890869140625,
+                    233.51837158203125,
+                    452.75311279296875,
+                    262.63043212890625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5875522494316101,
+                "coordinate": [
+                    588.1693725585938,
+                    233.36300659179688,
+                    746.7046508789062,
+                    264.68878173828125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5231196284294128,
+                "coordinate": [
+                    883.5326538085938,
+                    233.69183349609375,
+                    965.5364379882812,
+                    263.635498046875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.760532796382904,
+                "coordinate": [
+                    127.92750549316406,
+                    284.2589111328125,
+                    185.8737335205078,
+                    313.7344970703125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.46764716506004333,
+                "coordinate": [
+                    314.09197998046875,
+                    269.64166259765625,
+                    510.59405517578125,
+                    336.10247802734375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6592653393745422,
+                "coordinate": [
+                    585.8282470703125,
+                    274.47430419921875,
+                    750.4864501953125,
+                    329.56817626953125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.597051739692688,
+                "coordinate": [
+                    840.497314453125,
+                    273.51519775390625,
+                    1007.633544921875,
+                    328.15362548828125
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6600471138954163,
+                "coordinate": [
+                    46.9285888671875,
+                    368.3623352050781,
+                    219.30126953125,
+                    400.8968811035156
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5625920295715332,
+                "coordinate": [
+                    333.7119445800781,
+                    371.0052490234375,
+                    823.58251953125,
+                    399.33843994140625
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9727809429168701,
+                "coordinate": [
+                    31.4434814453125,
+                    414.59710693359375,
+                    1046.935546875,
+                    689.1786499023438
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5648198127746582,
+                "coordinate": [
+                    49.572662353515625,
+                    730.5459594726562,
+                    184.27810668945312,
+                    762.7055053710938
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9866738319396973,
+                "coordinate": [
+                    35.49505615234375,
+                    777.8121337890625,
+                    1042.13623046875,
+                    1480.9644775390625
+                ]
+            }
+        ]
+    }
+}

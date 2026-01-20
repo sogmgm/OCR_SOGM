@@ -14,7 +14,8 @@ ENV/
 .ipynb_checkpoints/
 
 # Data
-data/
+pdf/
+output/
 models/*.pth
 models/*.pt
 *.log

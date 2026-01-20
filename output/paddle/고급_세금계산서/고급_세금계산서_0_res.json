@@ -1,0 +1,127 @@
+{
+    "input_path": "pdf/고급_세금계산서.pdf",
+    "page_index": 0,
+    "page_count": 8,
+    "width": 1560,
+    "height": 1080,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "KB 금융그룹",
+            "block_bbox": [
+                1343,
+                55,
+                1505,
+                89
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "B2B대출 관련 세금계산서 정보등록 처리방법",
+            "block_bbox": [
+                79,
+                403,
+                1074,
+                462
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "B2B고객상담센터:1566-9944",
+            "block_bbox": [
+                114,
+                863,
+                602,
+                903
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2
+        },
+        {
+            "block_label": "footer",
+            "block_content": "KB 국민은행",
+            "block_bbox": [
+                1184,
+                966,
+                1498,
+                1022
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6845977306365967,
+                "coordinate": [
+                    1343.466552734375,
+                    55.00550079345703,
+                    1505.241455078125,
+                    89.34432220458984
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.663172721862793,
+                "coordinate": [
+                    79.6136474609375,
+                    403.6261901855469,
+                    1074.2816162109375,
+                    462.9429016113281
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9159740805625916,
+                "coordinate": [
+                    114.72555541992188,
+                    863.0333251953125,
+                    602.5257568359375,
+                    903.7056884765625
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7340438961982727,
+                "coordinate": [
+                    1184.828369140625,
+                    966.9024658203125,
+                    1498.997314453125,
+                    1022.5433349609375
+                ]
+            }
+        ]
+    }
+}

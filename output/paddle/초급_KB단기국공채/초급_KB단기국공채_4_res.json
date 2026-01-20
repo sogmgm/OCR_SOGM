@@ -1,0 +1,343 @@
+{
+    "input_path": "pdf/초급_KB단기국공채.pdf",
+    "page_index": 4,
+    "page_count": 10,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "매 신탁건별로 해지일에 기준가격방식에 의한 실적배당",
+            "block_bbox": [
+                157,
+                142,
+                677,
+                167
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "text",
+            "block_content": "■ 원본 및 이익의 보전 : 없음",
+            "block_bbox": [
+                108,
+                213,
+                437,
+                242
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "☑ 양도 및 담보제공 : 가능(단, 은행의 승낙을 받아야 합니다.)",
+            "block_bbox": [
+                107,
+                287,
+                736,
+                315
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 기준가격의 계산",
+            "block_bbox": [
+                108,
+                358,
+                316,
+                386
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "(1) 당일의 기준가격은 그 직전일의 자산총액(이하 “신탁재산” 이라 함)에서 부채총액을 차감한 금액을 직전일의 수익권 총좌수로 나누어 산출하며, 1,000좌 단위로 원미만 셋째자리에서 4사5입하여 원미만 둘째자리까지 계산합니다.",
+            "block_bbox": [
+                128,
+                396,
+                1081,
+                492
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "(2) 이 신탁의 수익권 좌수는 다음과 같이 계산합니다.",
+            "block_bbox": [
+                128,
+                499,
+                645,
+                526
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "신탁금액\n수탁일의 기준가격 × 1,000",
+            "block_bbox": [
+                187,
+                536,
+                459,
+                586
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "(3) 이 신탁의 최초 판매개시일의 기준가격은 1,000좌당 1,000원으로 합니다.",
+            "block_bbox": [
+                127,
+                596,
+                856,
+                623
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7
+        },
+        {
+            "block_label": "text",
+            "block_content": "(4) 은행은 기준가격을 매일 계산하여 영업점에 비치하고 고객이 열람할 수 있도록 합니다.",
+            "block_bbox": [
+                127,
+                631,
+                984,
+                659
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Ⅲ. 신탁재산의 운용",
+            "block_bbox": [
+                111,
+                703,
+                383,
+                736
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 신탁재산의 운용대상",
+            "block_bbox": [
+                108,
+                784,
+                359,
+                811
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>운용대상</td><td>운용비율</td><td>비 고</td></tr><tr><td>① 채권, 채권관련 파생상품, 대출, 유동성 자산 및 기타 자산</td><td>신탁재산의 100%이내</td><td></td></tr><tr><td>② 국공채 등- 국채, 공채- 법인세법 시행령 제17조 제1항 제2호 및 제3호, 제61조 제2항 제1호 내지 제7호, 제12호, 제18호 및 제19호의 기관이 발행하거나 원리금의 지급을 보증한 채권- 증권거래법 제2조 제1항 제3호의 규정에 의한 채권</td><td>신탁재산의 60%이상</td><td></td></tr><tr><td>③ 대출</td><td>신탁재산의 50%이내</td><td></td></tr></table>",
+            "block_bbox": [
+                101,
+                819,
+                1087,
+                1310
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11
+        },
+        {
+            "block_label": "number",
+            "block_content": "5",
+            "block_bbox": [
+                587,
+                1589,
+                602,
+                1610
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8183485865592957,
+                "coordinate": [
+                    157.3978271484375,
+                    142.0380096435547,
+                    677.0928955078125,
+                    167.4148712158203
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8920061588287354,
+                "coordinate": [
+                    108.614501953125,
+                    213.9727020263672,
+                    437.30206298828125,
+                    242.3234405517578
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9490604996681213,
+                "coordinate": [
+                    107.8021240234375,
+                    287.208251953125,
+                    736.43701171875,
+                    315.15869140625
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9492899775505066,
+                "coordinate": [
+                    108.65760803222656,
+                    358.92120361328125,
+                    316.86505126953125,
+                    386.83721923828125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9791204929351807,
+                "coordinate": [
+                    128.97567749023438,
+                    396.15960693359375,
+                    1081.1324462890625,
+                    492.18438720703125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9411530494689941,
+                "coordinate": [
+                    128.4031982421875,
+                    499.6291198730469,
+                    645.5841064453125,
+                    526.5380859375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5706811547279358,
+                "coordinate": [
+                    187.55670166015625,
+                    536.6307373046875,
+                    459.87860107421875,
+                    586.6441650390625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9508494734764099,
+                "coordinate": [
+                    127.49331665039062,
+                    596.290283203125,
+                    856.458984375,
+                    623.98486328125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9478166103363037,
+                "coordinate": [
+                    127.68685913085938,
+                    631.3629150390625,
+                    984.76416015625,
+                    659.7073974609375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9536429643630981,
+                "coordinate": [
+                    111.17660522460938,
+                    703.3134765625,
+                    383.2562561035156,
+                    736.38916015625
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6995688676834106,
+                "coordinate": [
+                    108.9124526977539,
+                    784.4075317382812,
+                    359.3785095214844,
+                    811.8840942382812
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9903416633605957,
+                "coordinate": [
+                    101.47171020507812,
+                    819.6793212890625,
+                    1087.734130859375,
+                    1310.9627685546875
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8601623773574829,
+                "coordinate": [
+                    587.56640625,
+                    1589.609130859375,
+                    602.7532958984375,
+                    1610.658447265625
+                ]
+            }
+        ]
+    }
+}

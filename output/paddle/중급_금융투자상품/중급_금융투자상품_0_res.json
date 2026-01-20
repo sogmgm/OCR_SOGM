@@ -1,0 +1,295 @@
+{
+    "input_path": "pdf/중급_금융투자상품.pdf",
+    "page_index": 0,
+    "page_count": 19,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "‘금융투자상품 투자자문 표준투자권유준칙’에 관한 지침",
+            "block_bbox": [
+                180,
+                169,
+                1008,
+                220
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "text",
+            "block_content": "2025.10.20 제정",
+            "block_bbox": [
+                94,
+                245,
+                270,
+                281
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "목 차",
+            "block_bbox": [
+                553,
+                418,
+                670,
+                462
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "제1장 총칙",
+            "block_bbox": [
+                140,
+                481,
+                291,
+                527
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "제2장 투자자 구분 등",
+            "block_bbox": [
+                140,
+                561,
+                396,
+                607
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "제3장 투자권유 희망 투자자에 대한 판매\n(제1절) 투자자 정보\n(제2절) 투자권유\n(제3절) 설명의무",
+            "block_bbox": [
+                140,
+                640,
+                584,
+                797
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "제4장 그 밖의 투자권유 유의사항",
+            "block_bbox": [
+                140,
+                830,
+                511,
+                875
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "제5장 금융투자상품 투자자문 수수료의 부과 및 절차에 관한 기준",
+            "block_bbox": [
+                140,
+                909,
+                827,
+                956
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7
+        },
+        {
+            "block_label": "text",
+            "block_content": "부칙",
+            "block_bbox": [
+                143,
+                992,
+                199,
+                1031
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "[별지1]~[별지7]",
+            "block_bbox": [
+                142,
+                1032,
+                325,
+                1075
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9
+        },
+        {
+            "block_label": "footer",
+            "block_content": "KB국민은행 WM추진부",
+            "block_bbox": [
+                433,
+                1471,
+                756,
+                1516
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5601770281791687,
+                "coordinate": [
+                    180.8040771484375,
+                    169.12127685546875,
+                    1008.9146728515625,
+                    220.850341796875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8717306852340698,
+                "coordinate": [
+                    94.45709991455078,
+                    245.51800537109375,
+                    270.5697021484375,
+                    281.092529296875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8770782351493835,
+                "coordinate": [
+                    553.0750732421875,
+                    418.82830810546875,
+                    670.4720458984375,
+                    462.66387939453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8234936594963074,
+                "coordinate": [
+                    140.82330322265625,
+                    481.13507080078125,
+                    291.0123596191406,
+                    527.4143676757812
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.920613169670105,
+                "coordinate": [
+                    140.35696411132812,
+                    561.0481567382812,
+                    396.6706237792969,
+                    607.2263793945312
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9564083814620972,
+                "coordinate": [
+                    140.1554718017578,
+                    640.7969970703125,
+                    584.7953491210938,
+                    797.647705078125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9206676483154297,
+                "coordinate": [
+                    140.61593627929688,
+                    830.7237548828125,
+                    511.7741394042969,
+                    875.0328369140625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9142568111419678,
+                "coordinate": [
+                    140.07632446289062,
+                    909.9248657226562,
+                    827.4493408203125,
+                    956.4663696289062
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7511228919029236,
+                "coordinate": [
+                    143.06344604492188,
+                    992.3310546875,
+                    199.57034301757812,
+                    1031.217041015625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8944613337516785,
+                "coordinate": [
+                    142.42974853515625,
+                    1032.29345703125,
+                    325.4883728027344,
+                    1075.17529296875
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7224302887916565,
+                "coordinate": [
+                    433.4601745605469,
+                    1471.530517578125,
+                    756.75439453125,
+                    1516.772216796875
+                ]
+            }
+        ]
+    }
+}

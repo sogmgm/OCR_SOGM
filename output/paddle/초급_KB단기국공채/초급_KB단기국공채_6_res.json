@@ -1,0 +1,546 @@
+{
+    "input_path": "pdf/초급_KB단기국공채.pdf",
+    "page_index": 6,
+    "page_count": 10,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "있습니다.",
+            "block_bbox": [
+                163,
+                142,
+                270,
+                169
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "IV. 상품의 투자위험",
+            "block_bbox": [
+                109,
+                213,
+                383,
+                246
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 투자원본에 대한 손실의 위험",
+            "block_bbox": [
+                131,
+                294,
+                474,
+                323
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "신탁상품에 대해서는 원리금을 보장하거나 보호하지 않습니다. 따라서 투자원본의 일부 또는 전부에 대하여 손실의 위험이 존재하며 투자금액의 손실 내지 감소의 위험은 전적으로 투자자가 부담하며 은행은 투자손실에 대하여도 책임을 지지 아니합니다.",
+            "block_bbox": [
+                146,
+                331,
+                1083,
+                429
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 대출의 위험",
+            "block_bbox": [
+                131,
+                470,
+                297,
+                498
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "대출을 받은 채무자의 채무불이행으로 인한 투자자금의 회수불능 및 회수기간이 지연될 수 있는 위험이 있습니다.",
+            "block_bbox": [
+                108,
+                507,
+                1082,
+                581
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 채권투자의 위험",
+            "block_bbox": [
+                132,
+                604,
+                340,
+                633
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "채권은 주식에 비해 그 위험도가 낮지만 채권 발행자의 채무불이행 위험과 이자율 변동에 따른 위험이 있습니다.",
+            "block_bbox": [
+                155,
+                642,
+                1081,
+                703
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 유동성의 위험",
+            "block_bbox": [
+                132,
+                735,
+                317,
+                764
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "투자종목의 유동성 부족에 따른 환금성의 제약이 발생할 수 있으며, 이에 따라 신탁재산의 가치 하락을 가져 올 수 있습니다.",
+            "block_bbox": [
+                160,
+                773,
+                1082,
+                835
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 파생상품의 투자 위험",
+            "block_bbox": [
+                131,
+                867,
+                395,
+                895
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10
+        },
+        {
+            "block_label": "text",
+            "block_content": "선물 및 옵션거래는 적은 증거금으로 거액의 결제가 가능하다는 레버리지 효과로 인하여 기초자산에의 직접투자보다 위험이 클 수 있습니다. 다만, 동 상품은 펀드 보유채권의 가격변동위험을 방지하기 위하여 헷지거래 위주로 운용됩니다.",
+            "block_bbox": [
+                159,
+                905,
+                1082,
+                1002
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "V. 신탁재산의 평가 및 공시방법",
+            "block_bbox": [
+                111,
+                1068,
+                550,
+                1103
+            ],
+            "block_id": 12,
+            "block_order": 13,
+            "group_id": 12
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 자산의 평가",
+            "block_bbox": [
+                143,
+                1139,
+                308,
+                1168
+            ],
+            "block_id": 13,
+            "block_order": 14,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "(1) 신탁재산은 다음 방법에 의하여 평가합니다.",
+            "block_bbox": [
+                151,
+                1200,
+                608,
+                1227
+            ],
+            "block_id": 14,
+            "block_order": 15,
+            "group_id": 14
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "가. 채권",
+            "block_bbox": [
+                161,
+                1236,
+                252,
+                1262
+            ],
+            "block_id": 15,
+            "block_order": 16,
+            "group_id": 15
+        },
+        {
+            "block_label": "text",
+            "block_content": "① 채권은 평가일이 속하는 달의 직전월부터 소급하여 계속 3월간 매월 10일 이상 거래소에서 시세(기세 포함)가 형성된 채권은 평가일의 최종시가",
+            "block_bbox": [
+                179,
+                1270,
+                1080,
+                1331
+            ],
+            "block_id": 16,
+            "block_order": 17,
+            "group_id": 16
+        },
+        {
+            "block_label": "text",
+            "block_content": "② ‘①’에 해당되는 상장채권 중 평가일에 시세가 형성되지 아니한 채권과 ‘①’에 해당되지 아니한 상장채권은 ‘③’의 규정을 준용하여 평가",
+            "block_bbox": [
+                177,
+                1338,
+                1081,
+                1401
+            ],
+            "block_id": 17,
+            "block_order": 18,
+            "group_id": 17
+        },
+        {
+            "block_label": "text",
+            "block_content": "③ 비상장채권은 증권투자신탁업 감독규정 제62조 1항의 규정에 의한 2개 이상의 채권가격 평가 기관이 제공하는 가격정보를 기초로 하여 평가한 금액",
+            "block_bbox": [
+                179,
+                1407,
+                1081,
+                1470
+            ],
+            "block_id": 18,
+            "block_order": 19,
+            "group_id": 18
+        },
+        {
+            "block_label": "text",
+            "block_content": "④ ‘①’ 내지 ‘③’ 의 기준으로 시가산출이 불가능한 채권일 경우 은행의 시가평가위원회에서 산출한 공정가액",
+            "block_bbox": [
+                179,
+                1477,
+                1082,
+                1539
+            ],
+            "block_id": 19,
+            "block_order": 20,
+            "group_id": 19
+        },
+        {
+            "block_label": "number",
+            "block_content": "7",
+            "block_bbox": [
+                587,
+                1589,
+                603,
+                1610
+            ],
+            "block_id": 20,
+            "block_order": null,
+            "group_id": 20
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6395033597946167,
+                "coordinate": [
+                    163.89483642578125,
+                    142.28530883789062,
+                    270.50177001953125,
+                    169.80484008789062
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9479949474334717,
+                "coordinate": [
+                    109.24896240234375,
+                    213.44406127929688,
+                    383.580322265625,
+                    246.84866333007812
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9461100101470947,
+                "coordinate": [
+                    131.55908203125,
+                    294.78594970703125,
+                    474.0400390625,
+                    323.16839599609375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9487497210502625,
+                "coordinate": [
+                    146.18411254882812,
+                    331.7528076171875,
+                    1083.8436279296875,
+                    429.277099609375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9233522415161133,
+                "coordinate": [
+                    131.48001098632812,
+                    470.60986328125,
+                    297.42596435546875,
+                    498.884765625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.93169766664505,
+                "coordinate": [
+                    108.97091674804688,
+                    507.29083251953125,
+                    1082.555908203125,
+                    581.3359985351562
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5105232000350952,
+                "coordinate": [
+                    151.57504272460938,
+                    556.52197265625,
+                    280.0761413574219,
+                    583.42041015625
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9425945281982422,
+                "coordinate": [
+                    132.49151611328125,
+                    604.909423828125,
+                    340.70770263671875,
+                    633.13427734375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9564579725265503,
+                "coordinate": [
+                    155.37158203125,
+                    642.3416748046875,
+                    1081.6954345703125,
+                    703.4212646484375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9418411254882812,
+                "coordinate": [
+                    132.18252563476562,
+                    735.9417724609375,
+                    317.8065490722656,
+                    764.0780029296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9594094753265381,
+                "coordinate": [
+                    160.7864990234375,
+                    773.702880859375,
+                    1082.4600830078125,
+                    835.1376953125
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9435951709747314,
+                "coordinate": [
+                    131.75985717773438,
+                    867.75732421875,
+                    395.3789367675781,
+                    895.262451171875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9715360999107361,
+                "coordinate": [
+                    159.52310180664062,
+                    905.483154296875,
+                    1082.9462890625,
+                    1002.38818359375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9524590969085693,
+                "coordinate": [
+                    111.36746215820312,
+                    1068.896484375,
+                    550.352294921875,
+                    1103.11474609375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9131976366043091,
+                "coordinate": [
+                    143.15615844726562,
+                    1139.3966064453125,
+                    308.0314636230469,
+                    1168.7325439453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8907061219215393,
+                "coordinate": [
+                    151.19723510742188,
+                    1200.3499755859375,
+                    608.5543212890625,
+                    1227.8809814453125
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6010133028030396,
+                "coordinate": [
+                    161.178955078125,
+                    1236.62890625,
+                    252.35589599609375,
+                    1262.076904296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9463293552398682,
+                "coordinate": [
+                    179.03549194335938,
+                    1270.910400390625,
+                    1080.8258056640625,
+                    1331.950439453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9500495791435242,
+                "coordinate": [
+                    177.45440673828125,
+                    1338.9456787109375,
+                    1081.175537109375,
+                    1401.0943603515625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9404299855232239,
+                "coordinate": [
+                    179.20822143554688,
+                    1407.9566650390625,
+                    1081.537841796875,
+                    1470.1483154296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9507262706756592,
+                "coordinate": [
+                    179.5052490234375,
+                    1477.3203125,
+                    1082.252685546875,
+                    1539.504638671875
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8582172989845276,
+                "coordinate": [
+                    587.1444702148438,
+                    1589.6873779296875,
+                    603.1417846679688,
+                    1610.1556396484375
+                ]
+            }
+        ]
+    }
+}

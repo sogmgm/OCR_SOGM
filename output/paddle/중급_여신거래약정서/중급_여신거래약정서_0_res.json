@@ -1,0 +1,199 @@
+{
+    "input_path": "pdf/중급_여신거래약정서.pdf",
+    "page_index": 0,
+    "page_count": 6,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "은행은 본인에게 이 약정서상의 중요한 내용을 설명하여야 하며, 은행여신거래기본약관(기업용)과 이 약정서의 사본을 교부하여야 합니다.",
+            "block_bbox": [
+                132,
+                80,
+                1075,
+                110
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"4\"></td><td colspan=\"10\">여신거래약정서(기업용)</td></tr><tr><td colspan=\"10\">(작성일자: 20.. )</td></tr><tr><td colspan=\"10\">주식회사 국민은행 앞</td></tr><tr><td colspan=\"10\">1. 본인은 주식회사 국민은행(이하 “은행” 이라 합니다)과 이래의 조건에 따라 여신거래를 함에 있어 “은행여신거래기본약관 (기업용, 기업종합통장지동대출 및 당쟁대출의 경우 관련 수신거래약관 포함)” 이 적용됨을 승인하고, 다음 각 조항을 확약합니다. 2. 본인은 은행여신거래기본약관 및 이 약정서 사본을 확실히 수령하고, 주요 내용에 대하여 충분한 설명을 들고 이야기하셨습니다.</td></tr><tr><td colspan=\"11\">본  인</td></tr><tr><td colspan=\"11\">주  소</td></tr></table>",
+            "block_bbox": [
+                84,
+                125,
+                1127,
+                478
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "제1조 거래조건(거래방식이 수 개로 되어 있는 경우 은행직원의 설명을 듣고 해당되는 “□” 내에 “√” 표시합니다.)",
+            "block_bbox": [
+                80,
+                498,
+                884,
+                522
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>어신과목(어신종류)</td><td colspan=\"3\"></td><td>거래구분</td><td colspan=\"3\">□한도거래 □개별거래</td><td></td></tr><tr><td>어신(한도)금액</td><td colspan=\"2\">금</td><td colspan=\"5\">원 (  국 법화 금</td><td></td></tr><tr><td>어신개시일</td><td colspan=\"3\">□20  년  월  일</td><td colspan=\"4\">□어신실행일을 개시일로 하기로 합니다.</td><td></td></tr><tr><td>어신기간</td><td colspan=\"3\">(  년  개월  일)※어신기간 만료일을 특정하지 않은 경우 기재</td><td>어신기간 만료일</td><td colspan=\"3\">20  년  월  일</td><td></td></tr><tr><td rowspan=\"17\">여신이자율 등</td><td rowspan=\"6\">□고정금리[은행여신거래기본약관(기업용)제3조제2항 제1호 선택]</td><td colspan=\"6\">□기준금리 + (   )%, 작성일 현재 기준금리 : (   )%</td><td></td></tr><tr><td>기준금리</td><td colspan=\"5\">□MOR □단기COFIX□TERM SOFR □EURIBOR □TIBOR□(   )</td><td></td></tr><tr><td colspan=\"6\">□여신기간 만료일까지 [□연, □3개월] (   )% (   )</td><td></td></tr><tr><td>금리/수수료명</td><td>산정주기</td><td>요율</td><td>금리/수수료명</td><td>산정주기</td><td>요율</td><td></td></tr><tr><td>□(   )</td><td>□연, □3개월</td><td>(   )%</td><td>□(   )</td><td>□연, □3개월</td><td>(   )%</td><td></td></tr><tr><td>□(   )</td><td>□연, □3개월</td><td>(   )%</td><td>□(   )</td><td>□연, □3개월</td><td>(   )%</td><td></td></tr><tr><td rowspan=\"3\">□변동금리[은행여신거래기본약관(기업용)제3조제2항 제2호 선택]</td><td colspan=\"6\">□기준금리 + (   )%, 작성일 현재 기준금리 : (   )%</td><td></td></tr><tr><td>기준금리</td><td colspan=\"4\">□MOR □단기COFIX□TERM SOFR □EURIBOR □TIBOR□(   )</td><td>금리 재산정 주기 :매(   )개월</td><td></td></tr><tr><td colspan=\"6\">□수신(신탁) 기준금리 + (   )% □기타 (   )</td><td></td></tr><tr><td colspan=\"7\">□기준금리 + 기간별 기준금리</td><td></td></tr><tr><td rowspan=\"2\" colspan=\"2\">기준금리</td><td rowspan=\"2\">통화</td><td colspan=\"4\">(한도내 건별) 여신기간별 기준금리</td><td></td></tr><tr><td>30일이내</td><td>60일이내</td><td>91일이내</td><td>182일이내</td><td>182일초과</td></tr><tr><td colspan=\"2\">□MOR □단기COFIX□CD91일물 유통수익률</td><td>KRW</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td></tr><tr><td colspan=\"2\">□TERM SOFR</td><td>USD</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td></tr><tr><td colspan=\"2\">□EURIBOR</td><td>EUR</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td></tr><tr><td colspan=\"2\">□TIBOR</td><td>JPY</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td></tr><tr><td colspan=\"2\">□(   )</td><td>기타</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td><td>(   )%</td></tr><tr><td colspan=\"8\">※상기 여신이자율은 제4조 제8항에 따른 할인금리가 반영된 금리이며, 금리할인기간이 종료된 후에는 할인금리만큼대출금리가 상승합니다.</td><td></td></tr><tr><td colspan=\"4\">본인은 금리 적용 내용에 대하여 충분한 설명을 들고 이해하였으며, 이당 내용을 본인이 직접 지필로 기재하였음을 확인합니다.</td><td colspan=\"4\">본인</td><td></td></tr><tr><td colspan=\"2\">이자 및 지원배상금계산방법</td><td colspan=\"6\">이자는 (□일단위, □월단위), 지연배상금은 일단위로 계산하며, 제5조에서 정한 방법에 따라 지연배상금률이 적용 됩니다. 일단위는 1년을 365일(윤년은 366일)로 계산하며, 외국환거래에 있어서는 국제관례, 상관순에 따른니다.</td><td></td></tr><tr><td colspan=\"2\">중도상환수수료</td><td colspan=\"6\">□{중도상환원금 X (   )% X (잔존일수/대출기간)}를 제6조에 따라 지급하기로 합니다. □기타 (   )</td><td></td></tr></table>",
+            "block_bbox": [
+                84,
+                521,
+                1130,
+                1572
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                91,
+                1620,
+                436,
+                1668
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4
+        },
+        {
+            "block_label": "footer",
+            "block_content": "02202001",
+            "block_bbox": [
+                458,
+                1633,
+                527,
+                1653
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5
+        },
+        {
+            "block_label": "number",
+            "block_content": "1 / 6",
+            "block_bbox": [
+                571,
+                1607,
+                621,
+                1629
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.6529181599617004,
+                "coordinate": [
+                    132.8558349609375,
+                    80.89569091796875,
+                    1075.576171875,
+                    110.90261840820312
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9531217813491821,
+                "coordinate": [
+                    84.69610595703125,
+                    125.94076538085938,
+                    1127.619873046875,
+                    478.4121398925781
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8299204111099243,
+                "coordinate": [
+                    80.68423461914062,
+                    498.32861328125,
+                    884.1597900390625,
+                    522.664306640625
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9880768060684204,
+                "coordinate": [
+                    84.1370849609375,
+                    521.5951538085938,
+                    1130.4266357421875,
+                    1572.49609375
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.9042102694511414,
+                "coordinate": [
+                    91.85614013671875,
+                    1620.237060546875,
+                    436.81451416015625,
+                    1668.868408203125
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8388484716415405,
+                "coordinate": [
+                    458.0634765625,
+                    1633.55419921875,
+                    527.7545166015625,
+                    1653.8662109375
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9216719269752502,
+                "coordinate": [
+                    571.4356689453125,
+                    1607.1710205078125,
+                    621.2054443359375,
+                    1629.8392333984375
+                ]
+            }
+        ]
+    }
+}

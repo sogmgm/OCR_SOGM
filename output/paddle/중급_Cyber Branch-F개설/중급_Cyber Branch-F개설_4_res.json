@@ -1,0 +1,319 @@
+{
+    "input_path": "pdf/중급_Cyber Branch-F개설.pdf",
+    "page_index": 4,
+    "page_count": 6,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "사항에 대하여는 \"갑\"과 \"을\"은 그 책임을 면하기로 합니다.",
+            "block_bbox": [
+                139,
+                116,
+                706,
+                142
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "⑦ 준용사항",
+            "block_bbox": [
+                108,
+                153,
+                226,
+                178
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "업무와 관련한 각각의 대상계좌에 대한 개별적인 업무처리는 대상예금의 거래약관을 준용하고 \"을\"",
+            "block_bbox": [
+                140,
+                189,
+                1079,
+                216
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "이외의 타금융기관에 대한 자금이체는 금융결제원의 타행환공동망 (CD공동망, 전자금융공동 망 포함)",
+            "block_bbox": [
+                139,
+                225,
+                1079,
+                252
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "업무규약 및 세부처리지침을 준용하기로 합니다.",
+            "block_bbox": [
+                139,
+                261,
+                596,
+                288
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "제 5 조 (서비스 제공 관련 등록정보)",
+            "block_bbox": [
+                106,
+                333,
+                462,
+                361
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "Cyber Branch-F의 개별서비스 및 수수료지급 등을 위하여 필요한 등록정보는 아래의 정보에 의합니다.",
+            "block_bbox": [
+                125,
+                370,
+                1086,
+                395
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 6
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td colspan=\"2\">수수료 출금계좌</td><td></td></tr><tr><td colspan=\"2\">급여이체 출금계좌</td><td></td></tr><tr><td rowspan=\"2\">가상계좌</td><td>채번요청좌수</td><td></td></tr><tr><td>정산 모계좌</td><td></td></tr></table>",
+            "block_bbox": [
+                101,
+                399,
+                1089,
+                565
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "제 6 조 (기타 사항)",
+            "block_bbox": [
+                107,
+                615,
+                300,
+                642
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "본인은「Cyber Branch-F 개설 및 이용신청서」에 추가하여 상기의 각 조에 기재된 조건으로 거래할 것을 확약합니다.",
+            "block_bbox": [
+                107,
+                814,
+                1079,
+                878
+            ],
+            "block_id": 9,
+            "block_order": 7,
+            "group_id": 9
+        },
+        {
+            "block_label": "text",
+            "block_content": "년 월 일",
+            "block_bbox": [
+                536,
+                958,
+                729,
+                985
+            ],
+            "block_id": 10,
+            "block_order": 8,
+            "group_id": 10
+        },
+        {
+            "block_label": "text",
+            "block_content": "신청인: ___ (인)",
+            "block_bbox": [
+                327,
+                1065,
+                862,
+                1096
+            ],
+            "block_id": 11,
+            "block_order": 9,
+            "group_id": 11
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9189839959144592,
+                "coordinate": [
+                    139.89495849609375,
+                    116.82605743408203,
+                    706.3074340820312,
+                    142.9945068359375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.690177857875824,
+                "coordinate": [
+                    108.68307495117188,
+                    153.19110107421875,
+                    226.61001586914062,
+                    178.24221801757812
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7783220410346985,
+                "coordinate": [
+                    140.0626220703125,
+                    189.93223571777344,
+                    1079.1744384765625,
+                    216.5753936767578
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7150786519050598,
+                "coordinate": [
+                    139.406005859375,
+                    225.74237060546875,
+                    1079.125732421875,
+                    252.5943603515625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7115123271942139,
+                "coordinate": [
+                    139.74404907226562,
+                    261.84381103515625,
+                    596.2784423828125,
+                    288.63299560546875
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8339458703994751,
+                "coordinate": [
+                    106.88677978515625,
+                    333.31451416015625,
+                    462.31292724609375,
+                    361.17852783203125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.714563250541687,
+                "coordinate": [
+                    125.7557373046875,
+                    370.5747375488281,
+                    1086.722412109375,
+                    395.7030944824219
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9835895895957947,
+                "coordinate": [
+                    101.05419921875,
+                    399.62652587890625,
+                    1089.434326171875,
+                    565.8301391601562
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.6032745242118835,
+                "coordinate": [
+                    107.9696044921875,
+                    615.148681640625,
+                    300.4107360839844,
+                    642.822998046875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9562795758247375,
+                "coordinate": [
+                    107.4671630859375,
+                    814.5379638671875,
+                    1079.375244140625,
+                    878.3619384765625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9007166028022766,
+                "coordinate": [
+                    536.322509765625,
+                    958.9881591796875,
+                    729.54052734375,
+                    985.5716552734375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9183191657066345,
+                "coordinate": [
+                    327.830810546875,
+                    1065.5531005859375,
+                    862.9375,
+                    1096.6068115234375
+                ]
+            }
+        ]
+    }
+}

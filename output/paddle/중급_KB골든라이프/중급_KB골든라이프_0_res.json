@@ -1,0 +1,103 @@
+{
+    "input_path": "pdf/중급_KB골든라이프.pdf",
+    "page_index": 0,
+    "page_count": 3,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "준법감시인 심의필 제842호(2016.12.29)\n유효기간 : 2017.1.1 ~ 2018.12.31",
+            "block_bbox": [
+                786,
+                57,
+                1123,
+                105
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "KB골든라이프 연금저축신탁 핵심상품설명서",
+            "block_bbox": [
+                225,
+                107,
+                963,
+                153
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>1</td><td colspan=\"4\">상품 개요 및 특징</td></tr></table>",
+            "block_bbox": [
+                58,
+                170,
+                1131,
+                1604
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5245087146759033,
+                "coordinate": [
+                    786.4320068359375,
+                    57.29254913330078,
+                    1123.9873046875,
+                    105.02254486083984
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7936956882476807,
+                "coordinate": [
+                    225.78533935546875,
+                    107.19404602050781,
+                    963.0532836914062,
+                    153.2715301513672
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9688742160797119,
+                "coordinate": [
+                    58.00714111328125,
+                    170.20513916015625,
+                    1131.315185546875,
+                    1604.069580078125
+                ]
+            }
+        ]
+    }
+}

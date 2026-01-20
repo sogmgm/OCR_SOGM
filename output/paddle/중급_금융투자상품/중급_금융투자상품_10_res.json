@@ -1,0 +1,775 @@
+{
+    "input_path": "pdf/중급_금융투자상품.pdf",
+    "page_index": 10,
+    "page_count": 19,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "[별지 1] 투자자정보 확인서",
+            "block_bbox": [
+                69,
+                74,
+                327,
+                103
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "투자자정보 확인서",
+            "block_bbox": [
+                116,
+                148,
+                380,
+                188
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "금융투자상품은 일반 예금상품과 달리 원금의 일부 또는 전부 손실이 발생할 수 있으며, 투자로 인한 손실은 투자자 본인에게 귀속됩니다.",
+            "block_bbox": [
+                114,
+                202,
+                1063,
+                228
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "투자자정보 확인서는 관련 법령에 따라 고객님의 투자자정보를 파악하여, 적합한 상품을 권유해드리기 위한 기초자료로 활용됩니다.\n고객님께 가장 적합한 상품을 제공하기 위해서는 고객님의 정확한 답변이 필요합니다. 고객님의 상황에 부합하거나 가장 가까운 항목을 정확히 선택(V)하여 주시기 바랍니다.",
+            "block_bbox": [
+                133,
+                307,
+                1055,
+                381
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "투자자 구분",
+            "block_bbox": [
+                133,
+                413,
+                247,
+                442
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "일반투자자\n\n전문투자자 (적합성, 적정성의 원칙, 설명의무 등 미적용)",
+            "block_bbox": [
+                388,
+                413,
+                499,
+                439
+            ],
+            "block_id": 5,
+            "block_order": 5,
+            "group_id": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                582,
+                413,
+                996,
+                439
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 5
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "금융 취약소비자 해당여부",
+            "block_bbox": [
+                132,
+                477,
+                373,
+                506
+            ],
+            "block_id": 7,
+            "block_order": 7,
+            "group_id": 7
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "법인고객 생략",
+            "block_bbox": [
+                428,
+                482,
+                522,
+                505
+            ],
+            "block_id": 8,
+            "block_order": 8,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "금융 취약소비자에 해당하시는 경우 상품 상담에 앞서 '금융투자상품 가입시 유의사항'에 대해 우선적으로 설명 들으실 수 있습니다.\n고객님께서는 금융투자상품에 대한 이해도가 낮거나 투자경험이 부족한 '금융 취약소비자'에 해당하십니까?",
+            "block_bbox": [
+                133,
+                524,
+                1038,
+                573
+            ],
+            "block_id": 9,
+            "block_order": 9,
+            "group_id": 9
+        },
+        {
+            "block_label": "text",
+            "block_content": "해당없음(일반적인 금융상품 관매 절차 진행) 해당됨(금융투자상품 가입시 유의사항 우선 설명)",
+            "block_bbox": [
+                153,
+                582,
+                893,
+                608
+            ],
+            "block_id": 10,
+            "block_order": 10,
+            "group_id": 10
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "※금융투자상품(펀드, 신탁 등) 가입시 유의사항",
+            "block_bbox": [
+                133,
+                637,
+                473,
+                661
+            ],
+            "block_id": 11,
+            "block_order": 11,
+            "group_id": 11
+        },
+        {
+            "block_label": "text",
+            "block_content": "·투자상품은 예금자보호법에 따라 보호되지 않습니다.",
+            "block_bbox": [
+                153,
+                666,
+                460,
+                687
+            ],
+            "block_id": 12,
+            "block_order": 12,
+            "group_id": 12
+        },
+        {
+            "block_label": "text",
+            "block_content": "· 투자상품은 운용실적에 따라 이익 또는 손실이 발생할 수 있으며 그 결과는 투자자에게 귀속됩니다.\n· 정해진 환매(중도해지)수수료 정수기간 이내에 환매(중도해지)하는 경우 환매(중도해지)수수료가 발생할 수 있습니다.\n· 가입을 결정하시기 전에 투자대상, 투자위험, 환매(중도해지)병법 및 보수 등에 관하여 (간이)투자설명서 또는 운용자산설명서를 반드시 읽어보시기 바랍니다.\n· 기타 비용의 발생 여부 등에 따라 실제 투자자가 부담하는 보수 및 비용이 달라질 수 있습니다.\n· 과거 운용실적이 미래의 수익을 보장하지 않습니다.",
+            "block_bbox": [
+                152,
+                687,
+                714,
+                708
+            ],
+            "block_id": 13,
+            "block_order": 13,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                153,
+                710,
+                814,
+                731
+            ],
+            "block_id": 14,
+            "block_order": 14,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                152,
+                731,
+                1023,
+                753
+            ],
+            "block_id": 15,
+            "block_order": 15,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                153,
+                752,
+                682,
+                772
+            ],
+            "block_id": 16,
+            "block_order": 16,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                153,
+                773,
+                450,
+                794
+            ],
+            "block_id": 17,
+            "block_order": 17,
+            "group_id": 13
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "투자자 확인사항",
+            "block_bbox": [
+                133,
+                838,
+                287,
+                868
+            ],
+            "block_id": 18,
+            "block_order": 18,
+            "group_id": 18
+        },
+        {
+            "block_label": "text",
+            "block_content": "투자자정보 확인서를 통해 파악된 고객님의 투자성향분석 결과는 영업접 창구 및 온라인에서 통일하게 적용되며, 고객님의 투자성향보다 높은 위험등급의 상품은 신규 가입이 불가합니다.",
+            "block_bbox": [
+                132,
+                884,
+                1026,
+                935
+            ],
+            "block_id": 19,
+            "block_order": 19,
+            "group_id": 19
+        },
+        {
+            "block_label": "text",
+            "block_content": "확인하였음",
+            "block_bbox": [
+                154,
+                944,
+                262,
+                968
+            ],
+            "block_id": 20,
+            "block_order": 20,
+            "group_id": 20
+        },
+        {
+            "block_label": "text",
+            "block_content": "투자자성향분석 결과는 24개월 동안 유효합니다. 최근 24개월 이내 파악한 고객님의 투자자 정보는 변경되지 않았으며, 해당 정보를 재사용 하시는 것에 동의하십니까? ※2021년 6월 11일 이후 투자자 정보를 파악한 경우에 한해 재사용 가능",
+            "block_bbox": [
+                134,
+                998,
+                1025,
+                1047
+            ],
+            "block_id": 21,
+            "block_order": 21,
+            "group_id": 21
+        },
+        {
+            "block_label": "text",
+            "block_content": "동의(과거 투자성향분석 결과 재사용) 동의하지 않음(모든 항목 답변)",
+            "block_bbox": [
+                154,
+                1055,
+                719,
+                1081
+            ],
+            "block_id": 22,
+            "block_order": 22,
+            "group_id": 22
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "투자자정보 파악",
+            "block_bbox": [
+                133,
+                1123,
+                287,
+                1150
+            ],
+            "block_id": 23,
+            "block_order": 23,
+            "group_id": 23
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "고객님 사항에 가장 가까운 항목을 선택(V)해주시기 바랍니다.",
+            "block_bbox": [
+                325,
+                1124,
+                713,
+                1150
+            ],
+            "block_id": 24,
+            "block_order": 24,
+            "group_id": 24
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1. 다음 질문은 고객님의 투자성향을 파악하기 위한 질문입니다.",
+            "block_bbox": [
+                136,
+                1164,
+                578,
+                1189
+            ],
+            "block_id": 25,
+            "block_order": 25,
+            "group_id": 25
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Q1. 고객님의 연령대는 어떻게 되십니까? ※ 법인고객 생략</td><td>① 19세 이하 ② 20대 ③ 30대 ④ 40대 ⑤ 50대 ⑥ 60대 이상</td></tr><tr><td>Q2. 고객님의 연소득은 어느 정도 입니까? ※ 법인고객 생략</td><td>① 3천만원 이하 ② 5천만원 이하 ③ 1억원 이하 ④ 3억원 이하 ⑤ 3억원 초과</td></tr><tr><td rowspan=\"4\">Q3. 다음 중 고객님의 수입원을 가장 잘 나타내는 것은 어느 것입니까? ※ 법인고객의 경우 ②번 항목 제의</td><td>① 현재 일정한 수입(근로소득, 사업소득, 일대소득)이 발생하고 있으며, 향후 현재 수준을 유지하거나 증가할 것으로 예상</td></tr><tr><td>② 현재 일정한 수입(연금소득)이 발생하고 있으며, 향후 현재 수준을 유지할 것으로 예상</td></tr><tr><td>③ 현재 일정한 수입이 발생하고 있으나, 향후 감소하거나 불안정할 것으로 예상</td></tr><tr><td>④ 현재 일정한 수입이 없거나 소액연금이 주 수입원임</td></tr></table>",
+            "block_bbox": [
+                120,
+                1189,
+                1068,
+                1466
+            ],
+            "block_id": 26,
+            "block_order": null,
+            "group_id": 26
+        },
+        {
+            "block_label": "text",
+            "block_content": "뒷면에서 계속 →",
+            "block_bbox": [
+                941,
+                1477,
+                1071,
+                1502
+            ],
+            "block_id": 27,
+            "block_order": 26,
+            "group_id": 27
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                165,
+                1537,
+                469,
+                1582
+            ],
+            "block_id": 28,
+            "block_order": null,
+            "group_id": 28
+        },
+        {
+            "block_label": "footer",
+            "block_content": "E003-206(210×297) 모조지 80g/ml (24.07 개정) K7307101011",
+            "block_bbox": [
+                480,
+                1542,
+                769,
+                1575
+            ],
+            "block_id": 29,
+            "block_order": null,
+            "group_id": 29
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                904,
+                1545,
+                1072,
+                1574
+            ],
+            "block_id": 30,
+            "block_order": null,
+            "group_id": 30
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9522730112075806,
+                "coordinate": [
+                    69.56124877929688,
+                    74.72468566894531,
+                    327.3127746582031,
+                    103.32386779785156
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8003619313240051,
+                "coordinate": [
+                    116.68521118164062,
+                    148.80062866210938,
+                    380.81304931640625,
+                    188.95553588867188
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8701900839805603,
+                "coordinate": [
+                    114.968017578125,
+                    202.9251708984375,
+                    1063.240478515625,
+                    228.65185546875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9763805866241455,
+                "coordinate": [
+                    133.0330810546875,
+                    307.7813720703125,
+                    1055.08154296875,
+                    381.8084716796875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9399963021278381,
+                "coordinate": [
+                    133.162109375,
+                    413.16973876953125,
+                    247.0596923828125,
+                    442.8690185546875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9033145308494568,
+                "coordinate": [
+                    388.4877624511719,
+                    413.91033935546875,
+                    499.6728820800781,
+                    439.30242919921875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9433181881904602,
+                "coordinate": [
+                    582.8601684570312,
+                    413.533203125,
+                    996.7290649414062,
+                    439.47216796875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9483740925788879,
+                "coordinate": [
+                    132.24020385742188,
+                    477.5204162597656,
+                    373.65435791015625,
+                    506.8805847167969
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6241113543510437,
+                "coordinate": [
+                    428.92437744140625,
+                    482.0047607421875,
+                    522.3384399414062,
+                    505.5321044921875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8227819800376892,
+                "coordinate": [
+                    133.280029296875,
+                    524.06494140625,
+                    1038.50537109375,
+                    573.9599609375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7020009160041809,
+                "coordinate": [
+                    153.73471069335938,
+                    582.2423095703125,
+                    893.778564453125,
+                    608.4283447265625
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7657269835472107,
+                "coordinate": [
+                    133.25521850585938,
+                    637.0505981445312,
+                    473.5662536621094,
+                    661.2525024414062
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.903847336769104,
+                "coordinate": [
+                    153.20785522460938,
+                    666.8814086914062,
+                    460.7447814941406,
+                    687.2380981445312
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8934875726699829,
+                "coordinate": [
+                    152.987060546875,
+                    687.9051513671875,
+                    714.266357421875,
+                    708.7623291015625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8528481125831604,
+                "coordinate": [
+                    153.17669677734375,
+                    710.5667114257812,
+                    814.7843017578125,
+                    731.1560668945312
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8331739902496338,
+                "coordinate": [
+                    152.80426025390625,
+                    731.1141357421875,
+                    1023.8887329101562,
+                    753.5487060546875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8830103278160095,
+                "coordinate": [
+                    153.03256225585938,
+                    752.88671875,
+                    682.7884521484375,
+                    772.996337890625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.902884840965271,
+                "coordinate": [
+                    153.44302368164062,
+                    773.97119140625,
+                    450.7558288574219,
+                    794.377685546875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9447349905967712,
+                "coordinate": [
+                    133.70632934570312,
+                    838.8449096679688,
+                    287.4432678222656,
+                    868.5591430664062
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8565561175346375,
+                "coordinate": [
+                    132.4793701171875,
+                    884.3685302734375,
+                    1026.5633544921875,
+                    935.0267333984375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7016745805740356,
+                "coordinate": [
+                    154.39718627929688,
+                    944.009033203125,
+                    262.4447937011719,
+                    968.0179443359375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9178546667098999,
+                "coordinate": [
+                    134.00314331054688,
+                    998.00244140625,
+                    1025.7122802734375,
+                    1047.822021484375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8478034138679504,
+                "coordinate": [
+                    154.7550048828125,
+                    1055.65673828125,
+                    719.23095703125,
+                    1081.587890625
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9378441572189331,
+                "coordinate": [
+                    133.60910034179688,
+                    1123.1221923828125,
+                    287.0065002441406,
+                    1150.7481689453125
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8041757345199585,
+                "coordinate": [
+                    325.16058349609375,
+                    1124.9603271484375,
+                    713.8435668945312,
+                    1150.2244873046875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6243712902069092,
+                "coordinate": [
+                    136.34011840820312,
+                    1164.52490234375,
+                    578.52392578125,
+                    1189.86328125
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9454254508018494,
+                "coordinate": [
+                    120.30413818359375,
+                    1189.079345703125,
+                    1068.80615234375,
+                    1466.466064453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8834800720214844,
+                "coordinate": [
+                    941.7781982421875,
+                    1477.510498046875,
+                    1071.765625,
+                    1502.350830078125
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.910654604434967,
+                "coordinate": [
+                    165.83737182617188,
+                    1537.078369140625,
+                    469.0611877441406,
+                    1582.628662109375
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8948994874954224,
+                "coordinate": [
+                    480.8172607421875,
+                    1542.7196044921875,
+                    769.8653564453125,
+                    1575.4757080078125
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.6192283034324646,
+                "coordinate": [
+                    904.0399169921875,
+                    1545.5435791015625,
+                    1072.8023681640625,
+                    1574.6571044921875
+                ]
+            }
+        ]
+    }
+}

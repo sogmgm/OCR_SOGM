@@ -1,0 +1,391 @@
+{
+    "input_path": "pdf/초급_부동산표준.pdf",
+    "page_index": 1,
+    "page_count": 8,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "'부동산 투자자문 표준투자권유준칙'에 관한 지침",
+            "block_bbox": [
+                233,
+                204,
+                957,
+                249
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "text",
+            "block_content": "2025.7.18 제정",
+            "block_bbox": [
+                137,
+                332,
+                268,
+                356
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "제1장 총칙",
+            "block_bbox": [
+                535,
+                449,
+                655,
+                480
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "제1조(목적)",
+            "block_bbox": [
+                136,
+                550,
+                241,
+                577
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "① 이 지침은 '자본시장과 금융투자업에 관한 법률'(이하 '법'이라 한다) 제50조 제1항 및 제58조 제1항, '자본시장과 금융투자업에 관한 법률 시행령'(이하 '시행령'이라 한다), '자본시장과 금융투자업에 관한 법률 시행규칙'(이하 '시행규칙'이라 한다)에 따라 KB국민은행(이하 '은행'이라 한다)의 임직원이 부동산 투자자문과 관련하여 법상 일반투자자에게 투자권유를 함에 있어 준수하여야 할 구체적인 절차 및 기준과 투자자로부터 받는 수수료의 부과기준 및 절차에 관한 사항 등을 정함을 목적으로 한다.",
+            "block_bbox": [
+                134,
+                586,
+                1054,
+                758
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "② 이 지침에서 정하지 아니한 사항에 대해서는 법, 시행령, 시행규칙, 금융투자업규정 등(이하 “관계법령 등”이라 한다)에서 정하는 바에 따른다.",
+            "block_bbox": [
+                135,
+                764,
+                1053,
+                829
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "제2조(용어의 정의)",
+            "block_bbox": [
+                135,
+                873,
+                303,
+                900
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "이 지침에서 사용하는 용어의 정의는 다음 각 호와 같다. 다만, 이 지침에서 정하지 아니한 용어는 관계법령 등에서 정하는 바에 따른다.",
+            "block_bbox": [
+                135,
+                909,
+                1052,
+                972
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7
+        },
+        {
+            "block_label": "text",
+            "block_content": "1. “전문투자자”란 법 제9조제5항에 따른 전문투자자를 말한다",
+            "block_bbox": [
+                137,
+                980,
+                660,
+                1009
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "2. “일반투자자”란 법 제9조제6항에 따른 일반투자자를 말한다.",
+            "block_bbox": [
+                136,
+                1016,
+                664,
+                1045
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9
+        },
+        {
+            "block_label": "text",
+            "block_content": "3. “투자자문자산”이란 시행령 제6조의2에 따른 부동산 및 지상권, 지역권, 전세권, 임차권, 분양권 등 부동산 관련 권리를 말한다.",
+            "block_bbox": [
+                135,
+                1053,
+                1053,
+                1115
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10
+        },
+        {
+            "block_label": "text",
+            "block_content": "4. “투자권유”란 특정 투자자를 상대로 제3호에 따른 투자자문자산에 관한 투자자문계약 체결을 권유하는 것을 말한다",
+            "block_bbox": [
+                134,
+                1124,
+                1052,
+                1187
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11
+        },
+        {
+            "block_label": "text",
+            "block_content": "5. “투자자문”이란 부동산 등의 가치 또는 투자판단(종류, 종목, 취득과 처분, 취득과 처분의 방법, 수량, 가격 및 시기 등에 대한 판단)에 관한 자문에 응하는 것을 말한다.",
+            "block_bbox": [
+                135,
+                1195,
+                1052,
+                1261
+            ],
+            "block_id": 12,
+            "block_order": 13,
+            "group_id": 12
+        },
+        {
+            "block_label": "text",
+            "block_content": "6.“수수료”란 투자자문계약을 체결한 후 투자자와 사전에 약정된 수수료 부과기준을 적용하여 산출된 금액으로 계약자산의 운용성과에 관계없이 투자자로부터 지급받는 수수료를 말한다.",
+            "block_bbox": [
+                134,
+                1267,
+                1052,
+                1332
+            ],
+            "block_id": 13,
+            "block_order": 14,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "7. “중도해지수수료”란 투자자문계약에서 정하는 중도해지 수수료 부과 기간 이내에 계약을 중도해지하는 경우 투자자에게 일회적으로 부과하는 수수료를 말한다.",
+            "block_bbox": [
+                134,
+                1339,
+                1053,
+                1404
+            ],
+            "block_id": 14,
+            "block_order": 15,
+            "group_id": 14
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.959701418876648,
+                "coordinate": [
+                    233.03964233398438,
+                    204.64993286132812,
+                    957.8826904296875,
+                    249.25735473632812
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8843908309936523,
+                "coordinate": [
+                    137.638916015625,
+                    332.800048828125,
+                    268.6119384765625,
+                    356.968017578125
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7661774754524231,
+                "coordinate": [
+                    535.0665893554688,
+                    449.5804443359375,
+                    655.0968627929688,
+                    480.4281005859375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7773905992507935,
+                "coordinate": [
+                    136.4879150390625,
+                    550.67333984375,
+                    241.71099853515625,
+                    577.0517578125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.985651969909668,
+                "coordinate": [
+                    134.7525634765625,
+                    586.0460205078125,
+                    1054.4195556640625,
+                    758.7454833984375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9644255042076111,
+                "coordinate": [
+                    135.26718139648438,
+                    764.7092895507812,
+                    1053.2384033203125,
+                    829.7575073242188
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7924745678901672,
+                "coordinate": [
+                    135.82034301757812,
+                    873.6973876953125,
+                    303.2997741699219,
+                    900.4620361328125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9715797901153564,
+                "coordinate": [
+                    135.02804565429688,
+                    909.077880859375,
+                    1052.6826171875,
+                    972.7408447265625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9377082586288452,
+                "coordinate": [
+                    137.06130981445312,
+                    980.7503662109375,
+                    660.7626953125,
+                    1009.0762939453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9326496124267578,
+                "coordinate": [
+                    136.60775756835938,
+                    1016.9783935546875,
+                    664.345458984375,
+                    1045.2904052734375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.97162926197052,
+                "coordinate": [
+                    135.3673095703125,
+                    1053.140625,
+                    1053.062744140625,
+                    1115.867431640625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9729415774345398,
+                "coordinate": [
+                    134.62957763671875,
+                    1124.165283203125,
+                    1052.59814453125,
+                    1187.008056640625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9691504836082458,
+                "coordinate": [
+                    135.1978759765625,
+                    1195.826904296875,
+                    1052.2147216796875,
+                    1261.279541015625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9742986559867859,
+                "coordinate": [
+                    134.94287109375,
+                    1267.9661865234375,
+                    1052.17626953125,
+                    1332.8736572265625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9702047109603882,
+                "coordinate": [
+                    134.862548828125,
+                    1339.8602294921875,
+                    1053.0687255859375,
+                    1404.9229736328125
+                ]
+            }
+        ]
+    }
+}

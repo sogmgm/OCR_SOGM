@@ -1,0 +1,271 @@
+{
+    "input_path": "pdf/초급_부동산표준.pdf",
+    "page_index": 7,
+    "page_count": 8,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>항목</td><td>내용</td></tr><tr><td>2. 투자자문 대상 유형은 무엇입니까?</td><td>☐ 상가☐ 빌딩☐ 수익형 주거용 부동산☐ 토지☐ 기타(   )</td></tr><tr><td>3. 고객님의투자자 문규모는 어느 정도입니까?</td><td>☐ 20 억원 미만☐ 20 억원 이상 30 억원 미만☐ 30 억원 이상 50 억원 미만☐ 50 억원 이상 100 억원 미만☐ 100 억원 이상</td></tr><tr><td>4. 고객님의 투자지문 대상 희망 지역은 어디입니까?</td><td>☐ 서울( ☐ 강남권, ☐ 강북권, ☐ 강서권, ☐ 강동권)☐ 경기, 인천☐ 기타 광역시☐ 지역 무관 또는 기타 지역(   )</td></tr></table>",
+            "block_bbox": [
+                154,
+                195,
+                1066,
+                643
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "투자자체크리스트",
+            "block_bbox": [
+                149,
+                686,
+                275,
+                709
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "투자자체크리스트는 투자자문계약 거래에 있어서 투자자가 최소한 점검해야 할 사항을 요약한 자료입니다.",
+            "block_bbox": [
+                149,
+                715,
+                823,
+                739
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "또한 투자자가 투자자문권유인력으로부터 투자자문계약에 대한 설명을 충실히 들었음을 확인하는 용도로도 활용되므로 신중한",
+            "block_bbox": [
+                149,
+                747,
+                955,
+                771
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "답변비랍니다. 다음 사항에 대해 임직원으로부터 설명을 들었는지 확인하여 주시고, 잘 이해되지 않는 부분이 있으시면 임직원에게 다시 설명해 줄 것을 요구하시기 바랍니다.",
+            "block_bbox": [
+                148,
+                776,
+                1067,
+                834
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>1</td><td>투자자문계약의 개념 및 방법에 대한 설명을 ( 들었음 ).</td></tr><tr><td>2</td><td>투자자문계약에 따른 자문의 결과 투자원금이 보장되지 않을 수 있으며, 자문에 따른 모든 손익은 모두 투자자에게 귀속된다는 사실 등 투자위험에 대한 설명을 ( 들었음 ).</td></tr><tr><td>3</td><td>투자자문계약에 따른 자문방법 및 자문계획에 대하여 설명을 ( 들었음 ).</td></tr><tr><td>4</td><td>투자자문계약의 해지방법, 해지수수료 등에 대하여 설명을 ( 들었음 ).</td></tr><tr><td>5</td><td>투자자가 부담하는 각종 보수, 수수료, 비용 및 투자소득의 과세에 대하여 설명을 ( 들었음 ).</td></tr><tr><td>6</td><td>투자자문계약상 정해진 수수료 외에 별도의 수수료 납부를 요구 받은 사실이 ( 없음 ).</td></tr></table>",
+            "block_bbox": [
+                149,
+                852,
+                1066,
+                1184
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "본인은투자자정보에대한본인의정보가올바르게명시되어있으며,본인이제공한정보가정확함을확인합니다.",
+            "block_bbox": [
+                189,
+                1197,
+                900,
+                1222
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "작성일자: 20년월일",
+            "block_bbox": [
+                674,
+                1260,
+                944,
+                1284
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7
+        },
+        {
+            "block_label": "text",
+            "block_content": "고객의 성명(상호) : (서 명/인)",
+            "block_bbox": [
+                675,
+                1348,
+                956,
+                1373
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "[대리인 거래시대리인성명: ___ (서명/인)]",
+            "block_bbox": [
+                601,
+                1421,
+                1037,
+                1444
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.988246738910675,
+                "coordinate": [
+                    154.758056640625,
+                    195.6278076171875,
+                    1066.502685546875,
+                    643.0670166015625
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9307495355606079,
+                "coordinate": [
+                    149.5594482421875,
+                    686.4615478515625,
+                    275.8285217285156,
+                    709.2239990234375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7223186492919922,
+                "coordinate": [
+                    149.11117553710938,
+                    715.520263671875,
+                    823.689697265625,
+                    739.632080078125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.45594650506973267,
+                "coordinate": [
+                    149.430419921875,
+                    747.6692504882812,
+                    955.531494140625,
+                    771.5292358398438
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5585631132125854,
+                "coordinate": [
+                    148.78305053710938,
+                    776.0604248046875,
+                    1067.1815185546875,
+                    834.2506103515625
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9828653335571289,
+                "coordinate": [
+                    149.52536010742188,
+                    852.99169921875,
+                    1066.93310546875,
+                    1184.56103515625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5720661878585815,
+                "coordinate": [
+                    189.09432983398438,
+                    1197.3642578125,
+                    900.1153564453125,
+                    1222.03076171875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8544301390647888,
+                "coordinate": [
+                    674.699951171875,
+                    1260.505859375,
+                    944.87939453125,
+                    1284.12158203125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8917615413665771,
+                "coordinate": [
+                    675.7611083984375,
+                    1348.435302734375,
+                    956.8087158203125,
+                    1373.266845703125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6245601177215576,
+                "coordinate": [
+                    601.0506591796875,
+                    1421.1461181640625,
+                    1037.7169189453125,
+                    1444.0709228515625
+                ]
+            }
+        ]
+    }
+}

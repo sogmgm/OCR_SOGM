@@ -1,0 +1,250 @@
+{
+    "input_path": "pdf/고급_세금계산서.pdf",
+    "page_index": 2,
+    "page_count": 8,
+    "width": 1560,
+    "height": 1080,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.세금계산서 정보등록(건별)",
+            "block_bbox": [
+                58,
+                32,
+                514,
+                77
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "세금계산서 등록내역조회",
+            "block_bbox": [
+                149,
+                117,
+                433,
+                154
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td><img src=\"imgs/img_in_image_box_59_182_1034_1014.jpg\" ></td><td>등록한 세금계산서 정보는 &#x27;세금계산서 등록내역조회&#x27; 메뉴에서 확인이 가능합니다. 세금계산서 관련 세부 대출실행내역을 확인하고자 하시는 경우에는 해당 세금계산서 선택 후 &#x27;상세조회&#x27; 버튼을 클릭하시면 상세내역 조회가 가능합니다. ※ 상세조회 확인가능항목 ○ 대출상품, 대출계좌번호, 세금계산서 사용금액, 대출금액 등</td></tr></table>",
+            "block_bbox": [
+                49,
+                180,
+                1504,
+                1019
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2
+        },
+        {
+            "block_label": "footer",
+            "block_content": "KB 국민은행",
+            "block_bbox": [
+                1360,
+                1053,
+                1494,
+                1078
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 4
+        },
+        {
+            "block_label": "number",
+            "block_content": "2",
+            "block_bbox": [
+                1524,
+                1058,
+                1540,
+                1078
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 5
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9456306099891663,
+                "coordinate": [
+                    58.282958984375,
+                    32.17494201660156,
+                    514.5333251953125,
+                    77.73329162597656
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7232271432876587,
+                "coordinate": [
+                    149.32150268554688,
+                    117.37272644042969,
+                    433.0904235839844,
+                    154.70237731933594
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.40433230996131897,
+                "coordinate": [
+                    75.33502197265625,
+                    293.20513916015625,
+                    154.32113647460938,
+                    323.1068115234375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4940233826637268,
+                "coordinate": [
+                    79.26557922363281,
+                    352.87847900390625,
+                    151.25367736816406,
+                    376.13604736328125
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.7476320266723633,
+                "coordinate": [
+                    59.1405029296875,
+                    182.07672119140625,
+                    1034.0166015625,
+                    1014.3407592773438
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4503999948501587,
+                "coordinate": [
+                    332.980224609375,
+                    556.1875,
+                    386.16802978515625,
+                    579.05712890625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.41355252265930176,
+                "coordinate": [
+                    1074.667724609375,
+                    203.9854278564453,
+                    1473.260986328125,
+                    309.46014404296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.43376702070236206,
+                "coordinate": [
+                    1074.47021484375,
+                    343.50762939453125,
+                    1472.963134765625,
+                    483.80718994140625
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.5622448921203613,
+                "coordinate": [
+                    49.67132568359375,
+                    180.24127197265625,
+                    1504.5517578125,
+                    1019.1397094726562
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6215275526046753,
+                "coordinate": [
+                    1078.1375732421875,
+                    518.7158203125,
+                    1345.2559814453125,
+                    549.899169921875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4432030916213989,
+                "coordinate": [
+                    607.8916015625,
+                    963.5499267578125,
+                    673.760498046875,
+                    988.01025390625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4065631628036499,
+                "coordinate": [
+                    703.4814453125,
+                    963.8697509765625,
+                    737.934326171875,
+                    987.989013671875
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8521832227706909,
+                "coordinate": [
+                    1360.963134765625,
+                    1053.6842041015625,
+                    1494.031005859375,
+                    1078.2755126953125
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8287155032157898,
+                "coordinate": [
+                    1524.84619140625,
+                    1058.447509765625,
+                    1540.498046875,
+                    1078.307373046875
+                ]
+            }
+        ]
+    }
+}

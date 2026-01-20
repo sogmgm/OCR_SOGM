@@ -1,0 +1,103 @@
+{
+    "input_path": "pdf/초급_KB단기국공채.pdf",
+    "page_index": 2,
+    "page_count": 10,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "Ⅰ. 약관의 주요 내용",
+            "block_bbox": [
+                117,
+                177,
+                396,
+                210
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>편 드 명</td><td colspan=\"2\">KB단기 국공채형 신탁</td></tr><tr><td>신 탁 기 간</td><td colspan=\"2\">매 신탁건별로 수탁일로부터 해지일까지</td></tr><tr><td>신 탁 방 법</td><td colspan=\"2\">개별 신탁건별로 자유롭게 입금하고 해지하는 방법</td></tr><tr><td>이 익 계 산</td><td colspan=\"2\">매 신탁건별로 해지일에 이익계산</td></tr><tr><td>가 입 대 상</td><td colspan=\"2\">제한없음</td></tr><tr><td>가 입 금 액</td><td colspan=\"2\">신탁건별 100만원 이상</td></tr><tr><td rowspan=\"4\">신탁금의 지급</td><td>적용기준가격</td><td>해지신청일로부터 제3영업일</td></tr><tr><td>지급일</td><td>해지신청일로부터 제3영업일</td></tr><tr><td>해지수수료</td><td>· 3개월 미만 : 신탁이익의 70%· 3개월 이상 6개월미만 : 신탁이익의 30%※ 입금건별로 이익계산기간중 신탁이익 범위내에서 상기 해지수수료를 징수하여 신탁재산에 편입</td></tr><tr><td>일부해지</td><td>· 선입선출에 의해 지급· 일부지급후 신탁잔액이 100만원에 미달하는 경우에는 신탁금 전액을 해지신청하여야 함</td></tr><tr><td>신 탁 보 수</td><td colspan=\"2\">신탁재산 순자산총액 평균잔액의 연0.5%</td></tr><tr><td>기 준 가 격</td><td colspan=\"2\">그 직전일의 자산총액에서 부채총액을 차감한 금액을 직전일의 수익권총좌수로 나누어 산출하며 매일 계산하여 영업점에 비치합니다.</td></tr><tr><td>양도 및 담보제공</td><td colspan=\"2\">은행의 승낙을 얻어 가능</td></tr><tr><td>신탁자산의 운용</td><td colspan=\"2\">· 채권, 채권관련 파생상품, 대출, 유동성자산 및 기타자산 : 100% 이내· - 국공채 등 에 60% 이상· - 대출 50% 이내· 채권관련파생상품· - 선물거래 : 20% 이내, 옵션거래 : 5% 이내</td></tr><tr><td>원본 및 이익보전</td><td colspan=\"2\">원본 및 이익보전은 하지 않습니다.</td></tr><tr><td>신탁금의 시효</td><td colspan=\"2\">신탁금에 대한 수익권은 그 권리를 행사할 수 있는 때로부터 10년간 행사하지 않으면 소멸시효가 완성됩니다.</td></tr><tr><td>약관의 변경</td><td colspan=\"2\">은행은 금융감독원의 승인을 얻어 약관을 변경할 수 있습니다.</td></tr><tr><td>운용의 재위탁</td><td colspan=\"2\">운용업무를 위하여 제3자로부터 투자자문을 받거나 제3자에게 신탁재산 운용을 위탁할 수 있으며 그에 따른 비용은 은행이 부담합니다.</td></tr></table>",
+            "block_bbox": [
+                107,
+                222,
+                1083,
+                1392
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1
+        },
+        {
+            "block_label": "number",
+            "block_content": "3",
+            "block_bbox": [
+                587,
+                1589,
+                602,
+                1610
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.817371129989624,
+                "coordinate": [
+                    117.70486450195312,
+                    177.1102294921875,
+                    396.0409851074219,
+                    210.08401489257812
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9906043410301208,
+                "coordinate": [
+                    107.28823852539062,
+                    222.29608154296875,
+                    1083.494384765625,
+                    1392.437744140625
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8596556186676025,
+                "coordinate": [
+                    587.7227172851562,
+                    1589.888427734375,
+                    602.6517944335938,
+                    1610.3671875
+                ]
+            }
+        ]
+    }
+}

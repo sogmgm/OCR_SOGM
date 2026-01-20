@@ -1,0 +1,3308 @@
+[
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 0,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "KB 금융그룹",
+          "block_bbox": [
+            1343,
+            55,
+            1505,
+            89
+          ],
+          "block_id": 0,
+          "block_order": null,
+          "group_id": 0
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "B2B대출 관련 세금계산서 정보등록 처리방법",
+          "block_bbox": [
+            79,
+            403,
+            1074,
+            462
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1
+        },
+        {
+          "block_label": "text",
+          "block_content": "B2B고객상담센터:1566-9944",
+          "block_bbox": [
+            114,
+            863,
+            602,
+            903
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1184,
+            966,
+            1498,
+            1022
+          ],
+          "block_id": 3,
+          "block_order": null,
+          "group_id": 3
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 12,
+            "label": "header",
+            "score": 0.6845977306365967,
+            "coordinate": [
+              1343.466552734375,
+              55.00550079345703,
+              1505.241455078125,
+              89.34432220458984
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.663172721862793,
+            "coordinate": [
+              79.6136474609375,
+              403.6261901855469,
+              1074.2816162109375,
+              462.9429016113281
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9159740805625916,
+            "coordinate": [
+              114.72555541992188,
+              863.0333251953125,
+              602.5257568359375,
+              903.7056884765625
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.7340438961982727,
+            "coordinate": [
+              1184.828369140625,
+              966.9024658203125,
+              1498.997314453125,
+              1022.5433349609375
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 1,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "1.세금계산서 정보등록(건별)",
+          "block_bbox": [
+            58,
+            32,
+            514,
+            77
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "세금계산서 정보입력",
+          "block_bbox": [
+            173,
+            117,
+            409,
+            155
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        },
+        {
+          "block_label": "text",
+          "block_content": "조회 이체 공과금 예금 펀드 대출 신탁 보험 외환 퇴직연금 자금관리 B2B 뱅킹관리 기업서비스",
+          "block_bbox": [
+            94,
+            196,
+            947,
+            225
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "> 기업병킹 > B2B결제 > 세금계산서 > 세금계산서정보관리 > 세금계산서 정보등록(건별)",
+          "block_bbox": [
+            554,
+            241,
+            1031,
+            263
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3
+        },
+        {
+          "block_label": "text",
+          "block_content": "B2B결제",
+          "block_bbox": [
+            75,
+            276,
+            156,
+            303
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서정보관리",
+          "block_bbox": [
+            320,
+            277,
+            502,
+            305
+          ],
+          "block_id": 5,
+          "block_order": 5,
+          "group_id": 5
+        },
+        {
+          "block_label": "text",
+          "block_content": "통합서비스",
+          "block_bbox": [
+            79,
+            326,
+            153,
+            348
+          ],
+          "block_id": 6,
+          "block_order": 6,
+          "group_id": 6
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서 정보등록(건별)\n세금계산서 정보등록(대량)\n▶ 대량파일 등록내역조회/실행\n▶ 대량파일 처리결과조회",
+          "block_bbox": [
+            334,
+            325,
+            498,
+            346
+          ],
+          "block_id": 7,
+          "block_order": 7,
+          "group_id": 7
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            521,
+            324,
+            1000,
+            346
+          ],
+          "block_id": 8,
+          "block_order": 8,
+          "group_id": 7
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서",
+          "block_bbox": [
+            79,
+            362,
+            150,
+            383
+          ],
+          "block_id": 9,
+          "block_order": 9,
+          "group_id": 9
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서 등록내역조회",
+          "block_bbox": [
+            335,
+            355,
+            483,
+            374
+          ],
+          "block_id": 10,
+          "block_order": 10,
+          "group_id": 10
+        },
+        {
+          "block_label": "image",
+          "block_content": "",
+          "block_bbox": [
+            60,
+            182,
+            1038,
+            1018
+          ],
+          "block_id": 11,
+          "block_order": null,
+          "group_id": 11
+        },
+        {
+          "block_label": "text",
+          "block_content": "KB-e구매자금대출\n외상매출채권전자대출\n(순)",
+          "block_bbox": [
+            80,
+            456,
+            196,
+            478
+          ],
+          "block_id": 12,
+          "block_order": 11,
+          "group_id": 12
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            78,
+            491,
+            221,
+            532
+          ],
+          "block_id": 13,
+          "block_order": 12,
+          "group_id": 12
+        },
+        {
+          "block_label": "text",
+          "block_content": "외상매출채권전자대출(역)",
+          "block_bbox": [
+            78,
+            547,
+            221,
+            587
+          ],
+          "block_id": 14,
+          "block_order": 13,
+          "group_id": 14
+        },
+        {
+          "block_label": "text",
+          "block_content": "전자세금계산서",
+          "block_bbox": [
+            606,
+            574,
+            720,
+            595
+          ],
+          "block_id": 15,
+          "block_order": 14,
+          "group_id": 15
+        },
+        {
+          "block_label": "text",
+          "block_content": "KB구매론",
+          "block_bbox": [
+            79,
+            602,
+            142,
+            623
+          ],
+          "block_id": 16,
+          "block_order": 15,
+          "group_id": 16
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서종류",
+          "block_bbox": [
+            334,
+            572,
+            423,
+            593
+          ],
+          "block_id": 17,
+          "block_order": 16,
+          "group_id": 17
+        },
+        {
+          "block_label": "text",
+          "block_content": "전자상거래(e-MP)",
+          "block_bbox": [
+            79,
+            638,
+            195,
+            659
+          ],
+          "block_id": 18,
+          "block_order": 17,
+          "group_id": 18
+        },
+        {
+          "block_label": "text",
+          "block_content": "작성일자\n(세금계산서발행일)",
+          "block_bbox": [
+            334,
+            609,
+            446,
+            650
+          ],
+          "block_id": 19,
+          "block_order": 18,
+          "group_id": 19
+        },
+        {
+          "block_label": "text",
+          "block_content": "20160211",
+          "block_bbox": [
+            607,
+            618,
+            659,
+            636
+          ],
+          "block_id": 20,
+          "block_order": 19,
+          "group_id": 20
+        },
+        {
+          "block_label": "text",
+          "block_content": "전자채권",
+          "block_bbox": [
+            80,
+            674,
+            140,
+            695
+          ],
+          "block_id": 21,
+          "block_order": 20,
+          "group_id": 21
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서번호(승인번호)",
+          "block_bbox": [
+            335,
+            668,
+            480,
+            689
+          ],
+          "block_id": 22,
+          "block_order": 21,
+          "group_id": 22
+        },
+        {
+          "block_label": "text",
+          "block_content": "201602115939393943949394",
+          "block_bbox": [
+            606,
+            667,
+            755,
+            688
+          ],
+          "block_id": 23,
+          "block_order": 22,
+          "group_id": 23
+        },
+        {
+          "block_label": "text",
+          "block_content": "전자어음",
+          "block_bbox": [
+            80,
+            709,
+            139,
+            731
+          ],
+          "block_id": 24,
+          "block_order": 23,
+          "group_id": 24
+        },
+        {
+          "block_label": "text",
+          "block_content": "공급자(판매)\n사업자번호",
+          "block_bbox": [
+            335,
+            709,
+            409,
+            749
+          ],
+          "block_id": 25,
+          "block_order": 24,
+          "group_id": 25
+        },
+        {
+          "block_label": "text",
+          "block_content": "___",
+          "block_bbox": [
+            608,
+            717,
+            720,
+            740
+          ],
+          "block_id": 26,
+          "block_order": 25,
+          "group_id": 26
+        },
+        {
+          "block_label": "text",
+          "block_content": "KB원기업대출\nKB일석e조매출채권보험\n담보대출",
+          "block_bbox": [
+            79,
+            745,
+            183,
+            766
+          ],
+          "block_id": 27,
+          "block_order": 26,
+          "group_id": 27
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            79,
+            780,
+            232,
+            822
+          ],
+          "block_id": 28,
+          "block_order": 27,
+          "group_id": 27
+        },
+        {
+          "block_label": "text",
+          "block_content": "공급받는자(구매)\n사업자번호",
+          "block_bbox": [
+            335,
+            764,
+            433,
+            805
+          ],
+          "block_id": 29,
+          "block_order": 28,
+          "group_id": 29
+        },
+        {
+          "block_label": "text",
+          "block_content": "姓名：___  \n性别：___  \n年龄：___  \n地址：___  \n电话：___  \n邮箱：___  \n紧急联系人：___  \n紧急联系电话：___  \n医疗记录：___  \n过敏史：___  \n药物使用情况：___  \n手术历史：___  \n家族病史：___  \n其他备注：___",
+          "block_bbox": [
+            607,
+            773,
+            723,
+            796
+          ],
+          "block_id": 30,
+          "block_order": 29,
+          "group_id": 30
+        },
+        {
+          "block_label": "text",
+          "block_content": "B2B공공기관하도급대금\n담보대출",
+          "block_bbox": [
+            78,
+            836,
+            232,
+            877
+          ],
+          "block_id": 31,
+          "block_order": 30,
+          "group_id": 31
+        },
+        {
+          "block_label": "text",
+          "block_content": "공급가액",
+          "block_bbox": [
+            335,
+            823,
+            388,
+            844
+          ],
+          "block_id": 32,
+          "block_order": 31,
+          "group_id": 32
+        },
+        {
+          "block_label": "text",
+          "block_content": "200,000",
+          "block_bbox": [
+            606,
+            823,
+            653,
+            843
+          ],
+          "block_id": 33,
+          "block_order": 32,
+          "group_id": 33
+        },
+        {
+          "block_label": "text",
+          "block_content": "세액",
+          "block_bbox": [
+            335,
+            868,
+            365,
+            889
+          ],
+          "block_id": 34,
+          "block_order": 33,
+          "group_id": 34
+        },
+        {
+          "block_label": "text",
+          "block_content": "20,000",
+          "block_bbox": [
+            605,
+            868,
+            647,
+            887
+          ],
+          "block_id": 35,
+          "block_order": 34,
+          "group_id": 35
+        },
+        {
+          "block_label": "text",
+          "block_content": "B2B동반성장매출채권 담보대출",
+          "block_bbox": [
+            78,
+            891,
+            237,
+            932
+          ],
+          "block_id": 36,
+          "block_order": 35,
+          "group_id": 36
+        },
+        {
+          "block_label": "text",
+          "block_content": "합계금액",
+          "block_bbox": [
+            335,
+            912,
+            388,
+            933
+          ],
+          "block_id": 37,
+          "block_order": 36,
+          "group_id": 37
+        },
+        {
+          "block_label": "text",
+          "block_content": "220,000",
+          "block_bbox": [
+            606,
+            913,
+            653,
+            932
+          ],
+          "block_id": 38,
+          "block_order": 37,
+          "group_id": 38
+        },
+        {
+          "block_label": "text",
+          "block_content": "KB상생결제론",
+          "block_bbox": [
+            79,
+            946,
+            169,
+            969
+          ],
+          "block_id": 39,
+          "block_order": 38,
+          "group_id": 39
+        },
+        {
+          "block_label": "text",
+          "block_content": "B2B에디컬론",
+          "block_bbox": [
+            78,
+            982,
+            163,
+            1004
+          ],
+          "block_id": 40,
+          "block_order": 39,
+          "group_id": 40
+        },
+        {
+          "block_label": "text",
+          "block_content": "확인",
+          "block_bbox": [
+            658,
+            971,
+            693,
+            993
+          ],
+          "block_id": 41,
+          "block_order": 40,
+          "group_id": 41
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서 정보등록은 'B2B결제' 내\n「세금계산서정보관리」메뉴에서 진행이\n가능합니다.",
+          "block_bbox": [
+            1073,
+            204,
+            1475,
+            310
+          ],
+          "block_id": 42,
+          "block_order": 41,
+          "group_id": 42
+        },
+        {
+          "block_label": "text",
+          "block_content": "건별로 세금계산서 정보를 등록하는 경우에는 '세금계산서 정보등록(건별)'에서 세금계산서 정보를 직접 입력하실 수 있으며,",
+          "block_bbox": [
+            1074,
+            343,
+            1471,
+            483
+          ],
+          "block_id": 43,
+          "block_order": 42,
+          "group_id": 43
+        },
+        {
+          "block_label": "text",
+          "block_content": "대량의 세금계산서 정보를 등록하는 경우에는 '세금계산서 정보등록(대량)'에서 엑셀파일을 업로드하여 세금계산서 정보를 일괄로 등록하실 수 있습니다.",
+          "block_bbox": [
+            1074,
+            517,
+            1487,
+            658
+          ],
+          "block_id": 44,
+          "block_order": 43,
+          "group_id": 44
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "※ 유의사항",
+          "block_bbox": [
+            1077,
+            692,
+            1204,
+            724
+          ],
+          "block_id": 45,
+          "block_order": 44,
+          "group_id": 45
+        },
+        {
+          "block_label": "text",
+          "block_content": "ㅇ 세액이 “0원”인 경우 세금계산서 종류 선택 시「전자세금계산서(면세용)」 또는「종이세금계산서(면세용)」 선택",
+          "block_bbox": [
+            1079,
+            727,
+            1484,
+            829
+          ],
+          "block_id": 46,
+          "block_order": 45,
+          "group_id": 46
+        },
+        {
+          "block_label": "text",
+          "block_content": "ㅇ 세금계산서 작성일과 발행일이 상이한 경우 “세금계산서 작성일” 입력",
+          "block_bbox": [
+            1079,
+            832,
+            1469,
+            901
+          ],
+          "block_id": 47,
+          "block_order": 46,
+          "group_id": 47
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1360,
+            1053,
+            1494,
+            1078
+          ],
+          "block_id": 48,
+          "block_order": null,
+          "group_id": 48
+        },
+        {
+          "block_label": "number",
+          "block_content": "1",
+          "block_bbox": [
+            1525,
+            1058,
+            1539,
+            1078
+          ],
+          "block_id": 49,
+          "block_order": null,
+          "group_id": 49
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.9452503323554993,
+            "coordinate": [
+              58.156036376953125,
+              32.289894104003906,
+              514.4227294921875,
+              77.69153594970703
+            ]
+          },
+          {
+            "cls_id": 7,
+            "label": "figure_title",
+            "score": 0.6349498629570007,
+            "coordinate": [
+              173.98989868164062,
+              117.65132141113281,
+              409.0403137207031,
+              155.03233337402344
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4052826464176178,
+            "coordinate": [
+              94.83099365234375,
+              196.06036376953125,
+              947.2915649414062,
+              225.36236572265625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4330659508705139,
+            "coordinate": [
+              554.4912109375,
+              241.23928833007812,
+              1031.7724609375,
+              263.3263244628906
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6935452818870544,
+            "coordinate": [
+              75.93843078613281,
+              276.78155517578125,
+              156.36915588378906,
+              303.82452392578125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4843640923500061,
+            "coordinate": [
+              320.3538818359375,
+              277.61962890625,
+              502.0684814453125,
+              305.1441650390625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8351190686225891,
+            "coordinate": [
+              79.34834289550781,
+              326.3752746582031,
+              153.2805633544922,
+              348.2059631347656
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.49242663383483887,
+            "coordinate": [
+              334.0011291503906,
+              325.1055908203125,
+              498.3645935058594,
+              346.32757568359375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4372802674770355,
+            "coordinate": [
+              521.5144653320312,
+              324.8370361328125,
+              1000.9723510742188,
+              346.268798828125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.759662926197052,
+            "coordinate": [
+              79.9893798828125,
+              362.6201171875,
+              150.42413330078125,
+              383.96630859375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5656984448432922,
+            "coordinate": [
+              335.53173828125,
+              355.1937255859375,
+              483.8795166015625,
+              374.335205078125
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.6874514222145081,
+            "coordinate": [
+              60.516021728515625,
+              182.42401123046875,
+              1038.0638427734375,
+              1018.3203735351562
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6767197251319885,
+            "coordinate": [
+              80.05859375,
+              456.6314697265625,
+              196.5526123046875,
+              478.1064453125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7006585597991943,
+            "coordinate": [
+              78.90156555175781,
+              491.787841796875,
+              221.6860809326172,
+              532.9339599609375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7136006951332092,
+            "coordinate": [
+              78.91691589355469,
+              547.2852172851562,
+              221.6680145263672,
+              587.4601440429688
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5147932767868042,
+            "coordinate": [
+              606.1987915039062,
+              574.787109375,
+              720.6781616210938,
+              595.876708984375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8425917029380798,
+            "coordinate": [
+              79.47660827636719,
+              602.5548095703125,
+              142.02195739746094,
+              623.9163818359375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6191142201423645,
+            "coordinate": [
+              334.6282958984375,
+              572.3189697265625,
+              423.8004150390625,
+              593.7047119140625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8767658472061157,
+            "coordinate": [
+              79.906982421875,
+              638.3885498046875,
+              195.98141479492188,
+              659.827880859375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.49511298537254333,
+            "coordinate": [
+              336.0092468261719,
+              609.3816528320312,
+              388.5393981933594,
+              628.9176635742188
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6269960403442383,
+            "coordinate": [
+              334.760986328125,
+              609.3907470703125,
+              446.5662841796875,
+              650.7930908203125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.752864420413971,
+            "coordinate": [
+              607.2144165039062,
+              618.0106201171875,
+              659.7380981445312,
+              636.912353515625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8739661574363708,
+            "coordinate": [
+              80.111572265625,
+              674.009765625,
+              140.00344848632812,
+              695.58984375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6702769994735718,
+            "coordinate": [
+              335.3719787597656,
+              668.1094970703125,
+              480.2286071777344,
+              689.8199462890625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6395219564437866,
+            "coordinate": [
+              606.7753295898438,
+              667.8336181640625,
+              755.8539428710938,
+              688.5848388671875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8662735223770142,
+            "coordinate": [
+              80.14378356933594,
+              709.79052734375,
+              139.50575256347656,
+              731.027099609375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6816971302032471,
+            "coordinate": [
+              335.7374267578125,
+              709.2423095703125,
+              409.769287109375,
+              749.8302001953125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.49845460057258606,
+            "coordinate": [
+              608.39404296875,
+              717.508056640625,
+              720.873291015625,
+              740.392822265625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8511756062507629,
+            "coordinate": [
+              79.68087768554688,
+              745.2432861328125,
+              183.67984008789062,
+              766.6688232421875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8764703273773193,
+            "coordinate": [
+              79.03225708007812,
+              780.889892578125,
+              232.53060913085938,
+              822.0281982421875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7515168190002441,
+            "coordinate": [
+              335.62518310546875,
+              764.1064453125,
+              433.59967041015625,
+              805.23046875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5645778179168701,
+            "coordinate": [
+              607.3814086914062,
+              773.621337890625,
+              723.5884399414062,
+              796.65234375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8591563701629639,
+            "coordinate": [
+              78.80854797363281,
+              836.4576416015625,
+              232.1387176513672,
+              877.9068603515625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7863110899925232,
+            "coordinate": [
+              335.88836669921875,
+              823.3497314453125,
+              388.61883544921875,
+              844.9307861328125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7577197551727295,
+            "coordinate": [
+              606.96728515625,
+              823.974853515625,
+              653.700439453125,
+              843.276123046875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8052096366882324,
+            "coordinate": [
+              335.4583435058594,
+              868.240966796875,
+              365.0929870605469,
+              889.211181640625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7593103051185608,
+            "coordinate": [
+              605.9826049804688,
+              868.270751953125,
+              647.2614135742188,
+              887.5750732421875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8353205323219299,
+            "coordinate": [
+              78.11517333984375,
+              891.5438232421875,
+              237.05255126953125,
+              932.874755859375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7417296767234802,
+            "coordinate": [
+              335.1724853515625,
+              912.3159790039062,
+              388.5587158203125,
+              933.9094848632812
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7687295079231262,
+            "coordinate": [
+              606.856201171875,
+              913.0458374023438,
+              653.46630859375,
+              932.1126098632812
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8239313364028931,
+            "coordinate": [
+              79.00389099121094,
+              946.9949951171875,
+              169.84640502929688,
+              969.0318603515625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7353350520133972,
+            "coordinate": [
+              78.00811767578125,
+              982.5847778320312,
+              163.87649536132812,
+              1004.6347045898438
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6845353245735168,
+            "coordinate": [
+              658.2315673828125,
+              971.4498901367188,
+              693.9207763671875,
+              993.9276733398438
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.823317289352417,
+            "coordinate": [
+              1073.0987548828125,
+              204.27426147460938,
+              1475.7584228515625,
+              310.0914611816406
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.6296490430831909,
+            "coordinate": [
+              1075.993896484375,
+              344.23583984375,
+              1442.418212890625,
+              377.14801025390625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8402754068374634,
+            "coordinate": [
+              1074.252685546875,
+              343.41278076171875,
+              1471.977783203125,
+              483.80804443359375
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.730477511882782,
+            "coordinate": [
+              1075.6796875,
+              518.3443603515625,
+              1442.48779296875,
+              551.1282958984375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6885210275650024,
+            "coordinate": [
+              1074.90283203125,
+              517.7705078125,
+              1487.21875,
+              658.796142578125
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.8142706155776978,
+            "coordinate": [
+              1077.7529296875,
+              692.9160766601562,
+              1204.7236328125,
+              724.3726196289062
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9348899722099304,
+            "coordinate": [
+              1079.349609375,
+              727.4947509765625,
+              1484.875,
+              829.0472412109375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8652991652488708,
+            "coordinate": [
+              1079.352783203125,
+              832.2451782226562,
+              1469.75634765625,
+              901.1553344726562
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.7767578959465027,
+            "coordinate": [
+              1360.7431640625,
+              1053.6383056640625,
+              1494.4990234375,
+              1078.4476318359375
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.8193854689598083,
+            "coordinate": [
+              1525.753662109375,
+              1058.396728515625,
+              1539.798583984375,
+              1078.316650390625
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 2,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "1.세금계산서 정보등록(건별)",
+          "block_bbox": [
+            58,
+            32,
+            514,
+            77
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "세금계산서 등록내역조회",
+          "block_bbox": [
+            149,
+            117,
+            433,
+            154
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        },
+        {
+          "block_label": "table",
+          "block_content": "<table><tr><td><img src=\"imgs/img_in_image_box_59_182_1034_1014.jpg\" ></td><td>등록한 세금계산서 정보는 &#x27;세금계산서 등록내역조회&#x27; 메뉴에서 확인이 가능합니다. 세금계산서 관련 세부 대출실행내역을 확인하고자 하시는 경우에는 해당 세금계산서 선택 후 &#x27;상세조회&#x27; 버튼을 클릭하시면 상세내역 조회가 가능합니다. ※ 상세조회 확인가능항목 ○ 대출상품, 대출계좌번호, 세금계산서 사용금액, 대출금액 등</td></tr></table>",
+          "block_bbox": [
+            49,
+            180,
+            1504,
+            1019
+          ],
+          "block_id": 2,
+          "block_order": null,
+          "group_id": 2
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1360,
+            1053,
+            1494,
+            1078
+          ],
+          "block_id": 3,
+          "block_order": null,
+          "group_id": 4
+        },
+        {
+          "block_label": "number",
+          "block_content": "2",
+          "block_bbox": [
+            1524,
+            1058,
+            1540,
+            1078
+          ],
+          "block_id": 4,
+          "block_order": null,
+          "group_id": 5
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.9456306099891663,
+            "coordinate": [
+              58.282958984375,
+              32.17494201660156,
+              514.5333251953125,
+              77.73329162597656
+            ]
+          },
+          {
+            "cls_id": 7,
+            "label": "figure_title",
+            "score": 0.7232271432876587,
+            "coordinate": [
+              149.32150268554688,
+              117.37272644042969,
+              433.0904235839844,
+              154.70237731933594
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.40433230996131897,
+            "coordinate": [
+              75.33502197265625,
+              293.20513916015625,
+              154.32113647460938,
+              323.1068115234375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4940233826637268,
+            "coordinate": [
+              79.26557922363281,
+              352.87847900390625,
+              151.25367736816406,
+              376.13604736328125
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.7476320266723633,
+            "coordinate": [
+              59.1405029296875,
+              182.07672119140625,
+              1034.0166015625,
+              1014.3407592773438
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4503999948501587,
+            "coordinate": [
+              332.980224609375,
+              556.1875,
+              386.16802978515625,
+              579.05712890625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.41355252265930176,
+            "coordinate": [
+              1074.667724609375,
+              203.9854278564453,
+              1473.260986328125,
+              309.46014404296875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.43376702070236206,
+            "coordinate": [
+              1074.47021484375,
+              343.50762939453125,
+              1472.963134765625,
+              483.80718994140625
+            ]
+          },
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.5622448921203613,
+            "coordinate": [
+              49.67132568359375,
+              180.24127197265625,
+              1504.5517578125,
+              1019.1397094726562
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.6215275526046753,
+            "coordinate": [
+              1078.1375732421875,
+              518.7158203125,
+              1345.2559814453125,
+              549.899169921875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4432030916213989,
+            "coordinate": [
+              607.8916015625,
+              963.5499267578125,
+              673.760498046875,
+              988.01025390625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4065631628036499,
+            "coordinate": [
+              703.4814453125,
+              963.8697509765625,
+              737.934326171875,
+              987.989013671875
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.8521832227706909,
+            "coordinate": [
+              1360.963134765625,
+              1053.6842041015625,
+              1494.031005859375,
+              1078.2755126953125
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.8287155032157898,
+            "coordinate": [
+              1524.84619140625,
+              1058.447509765625,
+              1540.498046875,
+              1078.307373046875
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 3,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "2. 세금계산서 정보등록(대량)",
+          "block_bbox": [
+            55,
+            32,
+            514,
+            77
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "세금계산서 정보입력",
+          "block_bbox": [
+            174,
+            118,
+            408,
+            153
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        },
+        {
+          "block_label": "table",
+          "block_content": "<table><tr><td>조회</td><td>이체</td><td>공과금</td><td>예금</td><td>편드</td><td>대출</td><td>신탁</td><td>보험</td><td>외환</td><td>퇴직연금</td><td>자금관리</td><td>B2B</td><td>뱅킹관리</td><td>기업서비스</td><td>ㅠ</td></tr><tr><td colspan=\"15\">B2B결제</td></tr><tr><td colspan=\"15\">통합서비스</td></tr><tr><td colspan=\"15\">세금계산서</td></tr><tr><td colspan=\"15\">세금계산서정보관리</td></tr><tr><td colspan=\"15\">KB-e구매자금대출</td></tr><tr><td colspan=\"15\">외상매출채권전자대출(순)</td></tr><tr><td colspan=\"15\">외상매출채권전자대출(역)</td></tr><tr><td colspan=\"15\">KB구매론</td></tr><tr><td colspan=\"15\">전자상거래(e-MP)</td></tr><tr><td colspan=\"15\">전자채권</td></tr><tr><td colspan=\"15\">전자어음</td></tr><tr><td colspan=\"15\">KB원원기업대출</td></tr><tr><td colspan=\"15\">KB일석e조매출채권보험담보대출</td></tr><tr><td colspan=\"15\">B2B공공기관하도급대금담보대출</td></tr><tr><td colspan=\"15\">B2B동반성장매출채권담보대출</td></tr><tr><td colspan=\"15\">KB상생결제론</td></tr><tr><td colspan=\"15\">B2B메디컬론</td></tr><tr><td colspan=\"15\">공인인증센터</td></tr><tr><td colspan=\"15\">B2B결제</td></tr><tr><td colspan=\"15\">세금계산서정보관리</td></tr><tr><td colspan=\"15\">세금계산서정보통(건별)</td></tr><tr><td colspan=\"15\">세금계산서 정보등록(대량)</td></tr><tr><td colspan=\"15\">세금계산서 정보등록(대량)</td></tr><tr><td colspan=\"15\">세금계산서 동록내역조회</td></tr><tr><td colspan=\"15\">• 파일편집기에서 직접 파일을 작성 등록하거나, 액셀(*,xls, *,csv) 혹은 텍스트(*,txt)형식으로 PC에 저장된 파일을 변환하여 등록할 수 있습니다.</td></tr><tr><td colspan=\"15\">• 1회 처리건수는 최대 5,000건입니다.</td></tr><tr><td colspan=\"15\">• [샘플파일 다운로드] 버튼을 클릭하시면 샘플양식을 보실 수 있습니다.</td></tr><tr><td colspan=\"15\">• 파일열기</td></tr><tr><td colspan=\"15\">• 총 전체건수</td></tr><tr><td colspan=\"15\">검제요청명</td></tr><tr><td colspan=\"12\">총 클릭</td><td></td><td></td><td></td></tr></table>",
+          "block_bbox": [
+            62,
+            181,
+            1041,
+            1012
+          ],
+          "block_id": 2,
+          "block_order": null,
+          "group_id": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "세금계산서 정보를 대량으로 등록하시는 경우에는 '세금계산서 정보등록(대량)' 메뉴에서 엑셀파일을 업로드 하여 일괄 자료등록이 가능합니다.",
+          "block_bbox": [
+            1073,
+            205,
+            1486,
+            343
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3
+        },
+        {
+          "block_label": "text",
+          "block_content": "「샘플파일 다운로드」버튼을 클릭하여 세금계산서 정보등록 양식을 다운로드 받은 후 등록할 세금계산서 정보를 입력하시고,「파일열기」로 해당 파일을 선택하시면 파일을 업로드 하실 수 있습니다.",
+          "block_bbox": [
+            1073,
+            379,
+            1484,
+            552
+          ],
+          "block_id": 4,
+          "block_order": 3,
+          "group_id": 4
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "※ 유의사항",
+          "block_bbox": [
+            1078,
+            589,
+            1203,
+            619
+          ],
+          "block_id": 5,
+          "block_order": 4,
+          "group_id": 5
+        },
+        {
+          "block_label": "text",
+          "block_content": "ㅇ 세금계산서 작성일자 입력 시 ‘’ 없이 숫자만 입력",
+          "block_bbox": [
+            1078,
+            623,
+            1484,
+            688
+          ],
+          "block_id": 6,
+          "block_order": 5,
+          "group_id": 6
+        },
+        {
+          "block_label": "text",
+          "block_content": "공급자/공급받는자 사업자번호 입력\n시 ‘’ 없이 숫자만 입력",
+          "block_bbox": [
+            1079,
+            693,
+            1473,
+            758
+          ],
+          "block_id": 7,
+          "block_order": 6,
+          "group_id": 7
+        },
+        {
+          "block_label": "text",
+          "block_content": "ㅇ 공급가액 및 세액 입력 시 ‘’ 생략가능",
+          "block_bbox": [
+            1079,
+            762,
+            1484,
+            795
+          ],
+          "block_id": 8,
+          "block_order": 7,
+          "group_id": 8
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1360,
+            1053,
+            1494,
+            1078
+          ],
+          "block_id": 9,
+          "block_order": null,
+          "group_id": 9
+        },
+        {
+          "block_label": "number",
+          "block_content": "3",
+          "block_bbox": [
+            1525,
+            1058,
+            1540,
+            1077
+          ],
+          "block_id": 10,
+          "block_order": null,
+          "group_id": 10
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.9362586736679077,
+            "coordinate": [
+              55.84632873535156,
+              32.655059814453125,
+              514.1715698242188,
+              77.2622299194336
+            ]
+          },
+          {
+            "cls_id": 7,
+            "label": "figure_title",
+            "score": 0.7358148097991943,
+            "coordinate": [
+              174.7359619140625,
+              118.39639282226562,
+              408.2911376953125,
+              153.7109375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6277673840522766,
+            "coordinate": [
+              72.77308654785156,
+              266.038330078125,
+              152.9197540283203,
+              289.0445556640625
+            ]
+          },
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.8272737264633179,
+            "coordinate": [
+              62.794891357421875,
+              181.55242919921875,
+              1041.9224853515625,
+              1012.8001098632812
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8676432371139526,
+            "coordinate": [
+              76.96354675292969,
+              310.4073791503906,
+              149.99093627929688,
+              329.0758972167969
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7387909293174744,
+            "coordinate": [
+              76.90345764160156,
+              342.4998779296875,
+              146.02761840820312,
+              361.0150146484375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.40414994955062866,
+            "coordinate": [
+              91.12503051757812,
+              383.17974853515625,
+              210.52713012695312,
+              401.56646728515625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6776101589202881,
+            "coordinate": [
+              76.68449401855469,
+              426.9862060546875,
+              192.56736755371094,
+              445.8040771484375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7684521675109863,
+            "coordinate": [
+              75.8485107421875,
+              458.67333984375,
+              217.9647216796875,
+              495.8570556640625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.769643247127533,
+            "coordinate": [
+              76.40594482421875,
+              508.15716552734375,
+              217.8785400390625,
+              544.6779174804688
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9005347490310669,
+            "coordinate": [
+              76.38211059570312,
+              557.9747924804688,
+              139.23007202148438,
+              576.9967651367188
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9143684506416321,
+            "coordinate": [
+              76.79019165039062,
+              590.1187744140625,
+              191.92547607421875,
+              609.218994140625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9061352014541626,
+            "coordinate": [
+              77.02006530761719,
+              621.8046875,
+              136.57997131347656,
+              641.6494140625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.905950129032135,
+            "coordinate": [
+              77.17677307128906,
+              654.21630859375,
+              136.44285583496094,
+              673.3626708984375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8816560506820679,
+            "coordinate": [
+              76.66714477539062,
+              686.1734008789062,
+              179.87286376953125,
+              705.2634887695312
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8457985520362854,
+            "coordinate": [
+              76.11026000976562,
+              718.2191772460938,
+              228.08236694335938,
+              755.2616577148438
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8114152550697327,
+            "coordinate": [
+              76.0606689453125,
+              767.9221801757812,
+              228.4403076171875,
+              804.8859252929688
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7947386503219604,
+            "coordinate": [
+              75.83624267578125,
+              817.779052734375,
+              235.13128662109375,
+              854.233154296875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8236649036407471,
+            "coordinate": [
+              76.76155090332031,
+              867.253662109375,
+              166.40660095214844,
+              886.80859375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7691032886505127,
+            "coordinate": [
+              76.34983825683594,
+              898.90966796875,
+              160.4918670654297,
+              918.726806640625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9037736058235168,
+            "coordinate": [
+              1073.282958984375,
+              205.16744995117188,
+              1486.152099609375,
+              343.5144958496094
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9420943856239319,
+            "coordinate": [
+              1073.3787841796875,
+              379.23602294921875,
+              1484.1854248046875,
+              552.5031127929688
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.8980305790901184,
+            "coordinate": [
+              1078.40673828125,
+              589.7393798828125,
+              1203.708984375,
+              619.1658935546875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9700010418891907,
+            "coordinate": [
+              1078.90869140625,
+              623.0838623046875,
+              1484.154296875,
+              688.5089111328125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9665563106536865,
+            "coordinate": [
+              1079.343994140625,
+              693.2984008789062,
+              1473.546142578125,
+              758.7432250976562
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9094358682632446,
+            "coordinate": [
+              1079.37060546875,
+              762.9513549804688,
+              1484.29052734375,
+              795.0180053710938
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.8749527931213379,
+            "coordinate": [
+              1360.6932373046875,
+              1053.8551025390625,
+              1494.2945556640625,
+              1078.2945556640625
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.8400364518165588,
+            "coordinate": [
+              1525.4259033203125,
+              1058.51220703125,
+              1540.2703857421875,
+              1077.92529296875
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 4,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "2. 세금계산서 정보등록(대량)",
+          "block_bbox": [
+            55,
+            32,
+            514,
+            77
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "대량파일 등록실행",
+          "block_bbox": [
+            185,
+            117,
+            398,
+            155
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        },
+        {
+          "block_label": "table",
+          "block_content": "<table><tr><td>B2B결제</td><td>세금계산서정보관리</td></tr></table>",
+          "block_bbox": [
+            52,
+            178,
+            1497,
+            1018
+          ],
+          "block_id": 2,
+          "block_order": null,
+          "group_id": 2
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1360,
+            1053,
+            1494,
+            1078
+          ],
+          "block_id": 3,
+          "block_order": null,
+          "group_id": 3
+        },
+        {
+          "block_label": "number",
+          "block_content": "4",
+          "block_bbox": [
+            1525,
+            1058,
+            1540,
+            1078
+          ],
+          "block_id": 4,
+          "block_order": null,
+          "group_id": 4
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.9439707398414612,
+            "coordinate": [
+              55.51887512207031,
+              32.429542541503906,
+              514.1415405273438,
+              77.67967987060547
+            ]
+          },
+          {
+            "cls_id": 7,
+            "label": "figure_title",
+            "score": 0.7648859024047852,
+            "coordinate": [
+              185.66221618652344,
+              117.85639953613281,
+              398.2637939453125,
+              155.2240753173828
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.609089732170105,
+            "coordinate": [
+              73.475830078125,
+              260.5161437988281,
+              154.03256225585938,
+              283.7626647949219
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7229104042053223,
+            "coordinate": [
+              77.67005920410156,
+              303.0621032714844,
+              151.33985900878906,
+              321.6518859863281
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.579762876033783,
+            "coordinate": [
+              77.29856872558594,
+              333.54150390625,
+              147.80812072753906,
+              352.14886474609375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5397194027900696,
+            "coordinate": [
+              77.25809478759766,
+              413.51519775390625,
+              193.91519165039062,
+              432.45538330078125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5095380544662476,
+            "coordinate": [
+              76.4942398071289,
+              443.53790283203125,
+              219.85067749023438,
+              479.57769775390625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4333050549030304,
+            "coordinate": [
+              76.87774658203125,
+              490.59967041015625,
+              220.20550537109375,
+              525.7239379882812
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.418506920337677,
+            "coordinate": [
+              77.26459503173828,
+              509.05035400390625,
+              105.65998077392578,
+              525.7675170898438
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7158734798431396,
+            "coordinate": [
+              76.84185791015625,
+              537.5345458984375,
+              140.2006378173828,
+              556.701416015625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6726199388504028,
+            "coordinate": [
+              77.7208251953125,
+              568.114990234375,
+              192.89852905273438,
+              587.0548095703125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8350993990898132,
+            "coordinate": [
+              77.74110412597656,
+              598.5560302734375,
+              138.08560180664062,
+              617.6070556640625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8478458523750305,
+            "coordinate": [
+              77.88052368164062,
+              628.7318115234375,
+              137.56942749023438,
+              647.5804443359375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6908153891563416,
+            "coordinate": [
+              77.18124389648438,
+              659.1126708984375,
+              181.20709228515625,
+              678.106201171875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5150851607322693,
+            "coordinate": [
+              76.7970199584961,
+              689.7625732421875,
+              230.30825805664062,
+              724.802734375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5307427048683167,
+            "coordinate": [
+              76.68128967285156,
+              736.7239990234375,
+              229.88221740722656,
+              772.2454833984375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4914191961288452,
+            "coordinate": [
+              76.1357421875,
+              783.7576904296875,
+              235.38946533203125,
+              819.077880859375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.786840558052063,
+            "coordinate": [
+              76.79849243164062,
+              830.32958984375,
+              166.85243225097656,
+              850.318603515625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7833119034767151,
+            "coordinate": [
+              76.6146240234375,
+              860.4963989257812,
+              161.15919494628906,
+              880.5880737304688
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.42167946696281433,
+            "coordinate": [
+              73.72697448730469,
+              917.72900390625,
+              161.76539611816406,
+              938.201416015625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5463993549346924,
+            "coordinate": [
+              1072.6580810546875,
+              204.20599365234375,
+              1449.8150634765625,
+              310.589111328125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5588566064834595,
+            "coordinate": [
+              1074.391357421875,
+              343.4617919921875,
+              1473.122802734375,
+              448.8267822265625
+            ]
+          },
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.6547033786773682,
+            "coordinate": [
+              52.23260498046875,
+              178.38211059570312,
+              1497.617431640625,
+              1018.72119140625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4110293686389923,
+            "coordinate": [
+              670.1984252929688,
+              978.152099609375,
+              706.8169555664062,
+              998.1397705078125
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.8529670834541321,
+            "coordinate": [
+              1360.7431640625,
+              1053.6494140625,
+              1494.220703125,
+              1078.35302734375
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.8388321399688721,
+            "coordinate": [
+              1525.241455078125,
+              1058.8162841796875,
+              1540.826904296875,
+              1078.0069580078125
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 5,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "2. 세금계산서 정보등록(대량)",
+          "block_bbox": [
+            55,
+            32,
+            514,
+            77
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "대량파일 처리결과조회",
+          "block_bbox": [
+            161,
+            118,
+            419,
+            154
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        },
+        {
+          "block_label": "text",
+          "block_content": "통합서비스",
+          "block_bbox": [
+            75,
+            297,
+            148,
+            315
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "KB子매론",
+          "block_bbox": [
+            74,
+            522,
+            137,
+            539
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3
+        },
+        {
+          "block_label": "image",
+          "block_content": "",
+          "block_bbox": [
+            57,
+            181,
+            1038,
+            1012
+          ],
+          "block_id": 4,
+          "block_order": null,
+          "group_id": 4
+        },
+        {
+          "block_label": "table",
+          "block_content": "<table><tr><td colspan=\"2\">대량파일을 통한 세금계산서 정보등록 완료 후 정상 처리여부를 반드시 확인하시기 바랍니다.</td></tr><tr><td colspan=\"2\">세금계산서 대량파일 등록일 기준으로 조회기간 설정 후 &#x27;조회&#x27; 버튼 클릭 시 처리결과 조회가 가능합니다.</td></tr><tr><td colspan=\"2\">&#x27;정상금액(건수)&#x27; 항목에 보여지는 금액을 클릭하시면 등록한 세금계산서의 세부명세 확인이 가능하며,</td></tr><tr><td colspan=\"2\">&#x27;오류금액(건수)&#x27; 항목에 보여지는 금액을 클릭하시면 오류명세 및 사유 등을 확인하실 수 있습니다.</td></tr></table>",
+          "block_bbox": [
+            1059,
+            185,
+            1500,
+            1017
+          ],
+          "block_id": 5,
+          "block_order": null,
+          "group_id": 5
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1360,
+            1053,
+            1494,
+            1078
+          ],
+          "block_id": 6,
+          "block_order": null,
+          "group_id": 6
+        },
+        {
+          "block_label": "number",
+          "block_content": "5",
+          "block_bbox": [
+            1525,
+            1058,
+            1540,
+            1078
+          ],
+          "block_id": 7,
+          "block_order": null,
+          "group_id": 7
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.9245401620864868,
+            "coordinate": [
+              55.84660339355469,
+              32.603492736816406,
+              514.3777465820312,
+              77.50021362304688
+            ]
+          },
+          {
+            "cls_id": 7,
+            "label": "figure_title",
+            "score": 0.7728378772735596,
+            "coordinate": [
+              161.85568237304688,
+              118.13992309570312,
+              419.7169494628906,
+              154.3553466796875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4113641679286957,
+            "coordinate": [
+              75.31626892089844,
+              297.44110107421875,
+              148.92788696289062,
+              315.01177978515625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4922741651535034,
+            "coordinate": [
+              74.29582214355469,
+              522.1290283203125,
+              137.86630249023438,
+              539.6031494140625
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.9658048152923584,
+            "coordinate": [
+              57.0574951171875,
+              181.973876953125,
+              1038.1204833984375,
+              1012.055419921875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5672433376312256,
+            "coordinate": [
+              1073.63818359375,
+              204.81381225585938,
+              1465.76123046875,
+              309.9313659667969
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6094794273376465,
+            "coordinate": [
+              1073.9364013671875,
+              343.6750793457031,
+              1465.8311767578125,
+              449.3507995605469
+            ]
+          },
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.5402764678001404,
+            "coordinate": [
+              1059.14990234375,
+              185.7178955078125,
+              1500.59716796875,
+              1017.944580078125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6417629718780518,
+            "coordinate": [
+              1073.1123046875,
+              482.5885925292969,
+              1478.02001953125,
+              588.594482421875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5453832745552063,
+            "coordinate": [
+              1073.268310546875,
+              621.4478149414062,
+              1477.845947265625,
+              727.1708374023438
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.8167400360107422,
+            "coordinate": [
+              1360.6259765625,
+              1053.8370361328125,
+              1494.31640625,
+              1078.4210205078125
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.8326338529586792,
+            "coordinate": [
+              1525.172119140625,
+              1058.085205078125,
+              1540.908447265625,
+              1078.016357421875
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 6,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "3.대출실행 시 세금계산서 사전검증",
+          "block_bbox": [
+            55,
+            32,
+            610,
+            77
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "세금계산서 불러오기",
+          "block_bbox": [
+            173,
+            118,
+            409,
+            154
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        },
+        {
+          "block_label": "image",
+          "block_content": "",
+          "block_bbox": [
+            62,
+            178,
+            1042,
+            1017
+          ],
+          "block_id": 2,
+          "block_order": null,
+          "group_id": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "상품별 대출(할인)신청 단계 진행 후 세금계산서 사전검증 단계를 통해 중복 사용 및 초과사용여부를 확인 후 대출 취급이 가능합니다.",
+          "block_bbox": [
+            1072,
+            204,
+            1471,
+            345
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3
+        },
+        {
+          "block_label": "text",
+          "block_content": "불러오기 버튼 클릭 시 사전에 등록한 세금계산서 명세내역 조회가 가능하며 사전검증을 진행할 관련 세금계산서를 선택합니다.",
+          "block_bbox": [
+            1071,
+            379,
+            1472,
+            518
+          ],
+          "block_id": 4,
+          "block_order": 3,
+          "group_id": 4
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "※ 참고",
+          "block_bbox": [
+            1077,
+            554,
+            1159,
+            584
+          ],
+          "block_id": 5,
+          "block_order": 4,
+          "group_id": 5
+        },
+        {
+          "block_label": "text",
+          "block_content": "ㅇ 세금계산서 사전등록을 진행하지 않은 경우 '정보등록 바로가기' 버튼 클릭 시 세금계산서 정보등록 화면으로 이동하실 수 있습니다.",
+          "block_bbox": [
+            1078,
+            588,
+            1470,
+            727
+          ],
+          "block_id": 6,
+          "block_order": 5,
+          "group_id": 6
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1360,
+            1053,
+            1494,
+            1078
+          ],
+          "block_id": 7,
+          "block_order": null,
+          "group_id": 7
+        },
+        {
+          "block_label": "number",
+          "block_content": "6",
+          "block_bbox": [
+            1524,
+            1059,
+            1540,
+            1078
+          ],
+          "block_id": 8,
+          "block_order": null,
+          "group_id": 8
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.930557131767273,
+            "coordinate": [
+              55.800811767578125,
+              32.505645751953125,
+              610.2501220703125,
+              77.35638427734375
+            ]
+          },
+          {
+            "cls_id": 7,
+            "label": "figure_title",
+            "score": 0.8045336008071899,
+            "coordinate": [
+              173.81890869140625,
+              118.27743530273438,
+              409.2890625,
+              154.12454223632812
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.9709742665290833,
+            "coordinate": [
+              62.987060546875,
+              178.70632934570312,
+              1042.561279296875,
+              1017.1669921875
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.667221188545227,
+            "coordinate": [
+              1072.80078125,
+              204.70220947265625,
+              1471.28515625,
+              345.58343505859375
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7530018091201782,
+            "coordinate": [
+              1071.7989501953125,
+              379.109130859375,
+              1472.1871337890625,
+              518.3162841796875
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.9063960313796997,
+            "coordinate": [
+              1077.678466796875,
+              554.9112548828125,
+              1159.86474609375,
+              584.5670166015625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9151952266693115,
+            "coordinate": [
+              1078.417236328125,
+              588.6089477539062,
+              1470.589599609375,
+              727.2247924804688
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.8511008024215698,
+            "coordinate": [
+              1360.63232421875,
+              1053.903564453125,
+              1494.378662109375,
+              1078.418212890625
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.8295459747314453,
+            "coordinate": [
+              1524.908203125,
+              1059.407470703125,
+              1540.779296875,
+              1078.01416015625
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "res": {
+      "input_path": "pdf/고급_세금계산서.pdf",
+      "page_index": 7,
+      "page_count": 8,
+      "width": 1560,
+      "height": 1080,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ]
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "3.대출실행 시 세금계산서 사전검증",
+          "block_bbox": [
+            55,
+            32,
+            610,
+            77
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "세금계산서 사전검증",
+          "block_bbox": [
+            173,
+            118,
+            409,
+            154
+          ],
+          "block_id": 1,
+          "block_order": null,
+          "group_id": 1
+        },
+        {
+          "block_label": "text",
+          "block_content": "KB구매론",
+          "block_bbox": [
+            76,
+            438,
+            140,
+            450
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "전자채권",
+          "block_bbox": [
+            78,
+            474,
+            138,
+            487
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3
+        },
+        {
+          "block_label": "text",
+          "block_content": "KB상생결제론 B2B메디컬론",
+          "block_bbox": [
+            76,
+            613,
+            166,
+            626
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            76,
+            632,
+            160,
+            644
+          ],
+          "block_id": 5,
+          "block_order": 5,
+          "group_id": 4
+        },
+        {
+          "block_label": "image",
+          "block_content": "",
+          "block_bbox": [
+            58,
+            179,
+            1037,
+            1018
+          ],
+          "block_id": 6,
+          "block_order": null,
+          "group_id": 6
+        },
+        {
+          "block_label": "table",
+          "block_content": "<table><tr><td colspan=\"2\">세금계산서 정보「불러오기」를 통해 관련 세금계산서를 선택 후, 대출신청금액 입력하고「검증」버튼을 클릭하시면 사전검증을 진행합니다.</td></tr><tr><td colspan=\"2\">여러 건의 세금계산서 정보를 불러오기하여 합산금액 범위 내에서도 대출취급이 가능합니다.</td></tr><tr><td colspan=\"2\">다만, 대출신청금액이 세금계산서 사용 가능금액 (세금계산서 발행금액 - 기존 대출실행금액)을 초과하는 경우에는 대출실행이 불가합니다.</td></tr></table>",
+          "block_bbox": [
+            1057,
+            180,
+            1497,
+            1018
+          ],
+          "block_id": 7,
+          "block_order": null,
+          "group_id": 7
+        },
+        {
+          "block_label": "footer",
+          "block_content": "KB 국민은행",
+          "block_bbox": [
+            1360,
+            1053,
+            1494,
+            1078
+          ],
+          "block_id": 8,
+          "block_order": null,
+          "group_id": 8
+        },
+        {
+          "block_label": "number",
+          "block_content": "7",
+          "block_bbox": [
+            1524,
+            1058,
+            1542,
+            1077
+          ],
+          "block_id": 9,
+          "block_order": null,
+          "group_id": 9
+        }
+      ],
+      "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.9063470363616943,
+            "coordinate": [
+              55.652984619140625,
+              32.54969787597656,
+              610.2099609375,
+              77.37940979003906
+            ]
+          },
+          {
+            "cls_id": 7,
+            "label": "figure_title",
+            "score": 0.7639883160591125,
+            "coordinate": [
+              173.8518829345703,
+              118.63995361328125,
+              409.77288818359375,
+              154.02578735351562
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.43131187558174133,
+            "coordinate": [
+              76.98619079589844,
+              438.27130126953125,
+              140.1555938720703,
+              450.33428955078125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.42182591557502747,
+            "coordinate": [
+              78.25003051757812,
+              474.5970458984375,
+              138.41392517089844,
+              487.3502197265625
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4401833713054657,
+            "coordinate": [
+              76.68235778808594,
+              613.7633056640625,
+              166.3882598876953,
+              626.2862548828125
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4447927474975586,
+            "coordinate": [
+              76.28990173339844,
+              632.0439453125,
+              160.87049865722656,
+              644.4815673828125
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.9532704949378967,
+            "coordinate": [
+              58.680389404296875,
+              179.3350830078125,
+              1037.9539794921875,
+              1018.7362060546875
+            ]
+          },
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.5752825736999512,
+            "coordinate": [
+              1057.8460693359375,
+              180.70025634765625,
+              1497.1744384765625,
+              1018.3956909179688
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.7589462399482727,
+            "coordinate": [
+              1360.5693359375,
+              1053.9935302734375,
+              1494.30419921875,
+              1078.1400146484375
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.820133626461029,
+            "coordinate": [
+              1524.640869140625,
+              1058.447021484375,
+              1542.624267578125,
+              1077.993896484375
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,734 @@
+{
+    "input_path": "pdf/초급_KB단기국공채.pdf",
+    "page_index": 3,
+    "page_count": 10,
+    "width": 1191,
+    "height": 1684,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "II. 상품의 개요",
+            "block_bbox": [
+                113,
+                191,
+                327,
+                224
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 상품의 정의",
+            "block_bbox": [
+                119,
+                272,
+                283,
+                300
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "KB단기 국공채형 신탁이란 불특정 다수의 위탁자로부터 수탁받은 신탁자금으로 편드를 설정하여 유가증권 등에 운용하고 수익자에게 실적배당하는 신탁상품으로 당해 편드에 추가신탁 및 중도해지가 가능한 합동운용 불특정금전신탁을 말합니다.",
+            "block_bbox": [
+                146,
+                309,
+                1082,
+                407
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 가입대상",
+            "block_bbox": [
+                119,
+                437,
+                251,
+                466
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "·위탁자: 제한없음",
+            "block_bbox": [
+                149,
+                476,
+                353,
+                502
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "수익자 : 위탁자 본인 또는 위탁자가 지정하는 자",
+            "block_bbox": [
+                148,
+                509,
+                643,
+                536
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 신탁기간",
+            "block_bbox": [
+                120,
+                569,
+                251,
+                597
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "매 신탁건별로 수탁일로부터 해지일까지(만기일을 별도로 정하지 않음)",
+            "block_bbox": [
+                149,
+                606,
+                820,
+                634
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 신탁금액",
+            "block_bbox": [
+                120,
+                665,
+                251,
+                694
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "신탁건별 100만원 이상",
+            "block_bbox": [
+                151,
+                703,
+                371,
+                731
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 신탁보수",
+            "block_bbox": [
+                120,
+                762,
+                251,
+                790
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10
+        },
+        {
+            "block_label": "text",
+            "block_content": "신탁재산 순자산총액 평균자액의 연 0.5%",
+            "block_bbox": [
+                150,
+                799,
+                542,
+                827
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 신탁금의 지급",
+            "block_bbox": [
+                120,
+                859,
+                305,
+                887
+            ],
+            "block_id": 12,
+            "block_order": 13,
+            "group_id": 12
+        },
+        {
+            "block_label": "text",
+            "block_content": "(1)이 신탁을 해지하고자 하는 경우에는 사전에 해지신청을 하여야 하며 해지신청의 취소는 해지신청 당일에 한하여 가능합니다. 단, 해지신청금액은 최저 1만원이상으로 하여야 합니다",
+            "block_bbox": [
+                130,
+                897,
+                1081,
+                957
+            ],
+            "block_id": 13,
+            "block_order": 14,
+            "group_id": 13
+        },
+        {
+            "block_label": "text",
+            "block_content": "(2) 해지시 적용기준가격 : 해지신청일 포함 제3영업일",
+            "block_bbox": [
+                130,
+                966,
+                642,
+                992
+            ],
+            "block_id": 14,
+            "block_order": 15,
+            "group_id": 14
+        },
+        {
+            "block_label": "text",
+            "block_content": "(3) 실수령일 : 해지신청일 포함 제3영업일",
+            "block_bbox": [
+                130,
+                1000,
+                533,
+                1027
+            ],
+            "block_id": 15,
+            "block_order": 16,
+            "group_id": 15
+        },
+        {
+            "block_label": "text",
+            "block_content": "(4)해지신탁금은 고객이 지정한 계좌로 자동이체 합니다.",
+            "block_bbox": [
+                130,
+                1034,
+                670,
+                1061
+            ],
+            "block_id": 16,
+            "block_order": 17,
+            "group_id": 16
+        },
+        {
+            "block_label": "text",
+            "block_content": "(5)이 신탁의 신탁금을 일부해지하는 경우에는 선입선출법에 의해 지급하며, 신탁잔액이 100만원에",
+            "block_bbox": [
+                129,
+                1068,
+                1081,
+                1095
+            ],
+            "block_id": 17,
+            "block_order": 18,
+            "group_id": 17
+        },
+        {
+            "block_label": "text",
+            "block_content": "미달하는 경우에는 신탁금 전액을 해지신청 하여야 합니다.",
+            "block_bbox": [
+                160,
+                1103,
+                720,
+                1131
+            ],
+            "block_id": 18,
+            "block_order": 19,
+            "group_id": 18
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 해지수수료",
+            "block_bbox": [
+                120,
+                1163,
+                272,
+                1190
+            ],
+            "block_id": 19,
+            "block_order": 20,
+            "group_id": 19
+        },
+        {
+            "block_label": "text",
+            "block_content": "입금건별 이익계산기간중 신탁이익 범위내에서 다음의 해지수수료를 징수하여 신탁재산에 편입합니다.",
+            "block_bbox": [
+                148,
+                1200,
+                1081,
+                1259
+            ],
+            "block_id": 20,
+            "block_order": 21,
+            "group_id": 20
+        },
+        {
+            "block_label": "text",
+            "block_content": "· 3개월 미만 : 신탁이익의 70%",
+            "block_bbox": [
+                149,
+                1270,
+                458,
+                1296
+            ],
+            "block_id": 21,
+            "block_order": 22,
+            "group_id": 21
+        },
+        {
+            "block_label": "text",
+            "block_content": "3개월 이상 6개월이면 : 신탁이익의 30%",
+            "block_bbox": [
+                149,
+                1304,
+                557,
+                1330
+            ],
+            "block_id": 22,
+            "block_order": 23,
+            "group_id": 22
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 신탁방법",
+            "block_bbox": [
+                120,
+                1398,
+                249,
+                1425
+            ],
+            "block_id": 23,
+            "block_order": 24,
+            "group_id": 23
+        },
+        {
+            "block_label": "text",
+            "block_content": "개별 신탁건별로 자유롭게 입금하고 해지하는 방법",
+            "block_bbox": [
+                158,
+                1435,
+                636,
+                1461
+            ],
+            "block_id": 24,
+            "block_order": 25,
+            "group_id": 24
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "■ 이익계산",
+            "block_bbox": [
+                119,
+                1494,
+                250,
+                1522
+            ],
+            "block_id": 25,
+            "block_order": 26,
+            "group_id": 25
+        },
+        {
+            "block_label": "number",
+            "block_content": "4",
+            "block_bbox": [
+                587,
+                1590,
+                603,
+                1609
+            ],
+            "block_id": 26,
+            "block_order": null,
+            "group_id": 26
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9427441358566284,
+                "coordinate": [
+                    113.24512481689453,
+                    191.23724365234375,
+                    327.90106201171875,
+                    224.8392333984375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9257457256317139,
+                "coordinate": [
+                    119.62764739990234,
+                    272.3415222167969,
+                    283.3893737792969,
+                    300.6689147949219
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7280824780464172,
+                "coordinate": [
+                    146.88836669921875,
+                    309.69244384765625,
+                    1082.494140625,
+                    337.39349365234375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6236184239387512,
+                "coordinate": [
+                    148.19482421875,
+                    345.099853515625,
+                    1082.14111328125,
+                    372.3179931640625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.49920785427093506,
+                "coordinate": [
+                    146.7386474609375,
+                    309.423095703125,
+                    1082.37255859375,
+                    407.1767578125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6145449280738831,
+                "coordinate": [
+                    149.28274536132812,
+                    379.20172119140625,
+                    578.5029296875,
+                    406.40496826171875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9266102313995361,
+                "coordinate": [
+                    119.62075805664062,
+                    437.8612060546875,
+                    251.03952026367188,
+                    466.05072021484375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9220281839370728,
+                "coordinate": [
+                    149.16845703125,
+                    476.419677734375,
+                    353.447509765625,
+                    502.00787353515625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9186241030693054,
+                "coordinate": [
+                    148.70880126953125,
+                    509.9953308105469,
+                    643.0730590820312,
+                    536.552490234375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.924586832523346,
+                "coordinate": [
+                    120.0171127319336,
+                    569.0655517578125,
+                    251.17953491210938,
+                    597.2020263671875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9233139157295227,
+                "coordinate": [
+                    149.3751220703125,
+                    606.429443359375,
+                    820.4943237304688,
+                    634.287109375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8910831809043884,
+                "coordinate": [
+                    120.02320861816406,
+                    665.3349609375,
+                    251.3413543701172,
+                    694.2108154296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9155594110488892,
+                "coordinate": [
+                    151.12014770507812,
+                    703.088623046875,
+                    371.2065124511719,
+                    731.10693359375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9182186722755432,
+                "coordinate": [
+                    120.036376953125,
+                    762.5372314453125,
+                    251.34228515625,
+                    790.7481689453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9200444221496582,
+                "coordinate": [
+                    150.72512817382812,
+                    799.8551635742188,
+                    542.25634765625,
+                    827.3577270507812
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9389837980270386,
+                "coordinate": [
+                    120.30821228027344,
+                    859.1517333984375,
+                    305.73565673828125,
+                    887.4820556640625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6594102382659912,
+                "coordinate": [
+                    129.93362426757812,
+                    896.885009765625,
+                    1081.4324951171875,
+                    924.3829345703125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4947372078895569,
+                "coordinate": [
+                    130.33941650390625,
+                    897.00439453125,
+                    1081.195068359375,
+                    957.8857421875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6858646869659424,
+                "coordinate": [
+                    158.6070556640625,
+                    930.800537109375,
+                    975.6566162109375,
+                    957.9296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9227015972137451,
+                "coordinate": [
+                    130.41262817382812,
+                    966.0501708984375,
+                    642.6644287109375,
+                    992.8172607421875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9190393686294556,
+                "coordinate": [
+                    130.58447265625,
+                    1000.0723876953125,
+                    533.1627807617188,
+                    1027.2359619140625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9168862700462341,
+                "coordinate": [
+                    130.34225463867188,
+                    1034.478271484375,
+                    670.06787109375,
+                    1061.591064453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6869369745254517,
+                "coordinate": [
+                    129.873779296875,
+                    1068.974853515625,
+                    1081.69091796875,
+                    1095.354248046875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6663818359375,
+                "coordinate": [
+                    160.07089233398438,
+                    1103.4468994140625,
+                    720.8892822265625,
+                    1131.0577392578125
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9385714530944824,
+                "coordinate": [
+                    120.41201782226562,
+                    1163.2640380859375,
+                    272.5522155761719,
+                    1190.8531494140625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7750075459480286,
+                "coordinate": [
+                    148.66616821289062,
+                    1200.4599609375,
+                    1081.153076171875,
+                    1259.956787109375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9266124963760376,
+                "coordinate": [
+                    149.43447875976562,
+                    1270.35791015625,
+                    458.1674499511719,
+                    1296.43115234375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9237546920776367,
+                "coordinate": [
+                    149.57952880859375,
+                    1304.0955810546875,
+                    557.3119506835938,
+                    1330.5965576171875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9250171780586243,
+                "coordinate": [
+                    120.033935546875,
+                    1398.2861328125,
+                    249.21942138671875,
+                    1425.530029296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9232256412506104,
+                "coordinate": [
+                    158.37681579589844,
+                    1435.197509765625,
+                    636.3009033203125,
+                    1461.5234375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8640247583389282,
+                "coordinate": [
+                    119.99369049072266,
+                    1494.750244140625,
+                    250.20700073242188,
+                    1522.370849609375
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8569234609603882,
+                "coordinate": [
+                    587.0810546875,
+                    1590.556884765625,
+                    603.122802734375,
+                    1609.011962890625
+                ]
+            }
+        ]
+    }
+}
