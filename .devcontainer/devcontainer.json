@@ -27,7 +27,7 @@
     }
   },
   
-  "postCreateCommand": "apt-get update && apt-get install -y curl && curl -LsSf https://astral.sh/uv/install.sh | sh && /root/.local/bin/uv venv && /root/.local/bin/uv pip install pytesseract easyocr paddleocr opencv-python pillow matplotlib jupyter transformers",
+  "postCreateCommand": "apt-get update && apt-get install -y curl && curl -LsSf https://astral.sh/uv/install.sh | sh && /root/.local/bin/uv venv && /root/.local/bin/uv sync",
   
   "remoteUser": "root"
 }
