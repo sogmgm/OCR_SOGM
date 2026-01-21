@@ -14,7 +14,18 @@ def process_pdfs_in_folder():
     
     # PaddleOCR-VL 초기화 (PDF 문서 파싱에 최적화된 최신 모델)
     # device="gpu:0" 또는 device="gpu" 로 GPU 사용
-    pipeline = PaddleOCRVL(device="gpu:0")
+    # === 기존 코드 (최소화) ===
+    # pipeline = PaddleOCRVL(device="gpu:0")
+    
+    # === 수정된 코드 (문서 전처리 활성화 버전) ===
+    pipeline = PaddleOCRVL(
+        device="gpu:0",
+        use_doc_orientation_classify=True,  # ✅ 문서 방향 분류 활성화
+        use_doc_unwarping=True,             # ✅ 문서 왜곡 보정 활성화 (스캔 문서 개선)
+        use_layout_detection=True,          # ✅ 레이아웃 감지 활성화
+        use_chart_recognition=False,        # 차트 인식 (필요시 True로 변경)
+        format_block_content=False,         # 블록 콘텐츠 Markdown 포맷팅
+    )
     
     # .pdf 폴더 내의 모든 PDF 파일 찾기
     pdf_files = list(pdf_folder.glob("*.pdf"))
