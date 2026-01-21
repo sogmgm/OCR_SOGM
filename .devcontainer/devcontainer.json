@@ -1,18 +1,17 @@
 {
   "name": "OCR Test with UV",
-  "image": "pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel",
-  
+  "image": "pytorch/pytorch:2.9.0-cuda12.6-cudnn9-devel",
+
   "runArgs": [
-    "--gpus=\"device=0\"",
+    "--gpus", "device=0",
     "--shm-size=16g"
   ],
-  
+
   "mounts": [
     "source=/mnt/nvme0/ocr-test,target=/workspace,type=bind"
   ],
-  
   "workspaceFolder": "/workspace",
-  
+
   "customizations": {
     "vscode": {
       "extensions": [
@@ -22,12 +21,12 @@
         "charliermarsh.ruff"
       ],
       "settings": {
-        "python.defaultInterpreterPath": ".venv/bin/python"
+        "python.defaultInterpreterPath": "/workspace/.venv/bin/python"
       }
     }
+
   },
-  
-  "postCreateCommand": "apt-get update && apt-get install -y curl && curl -LsSf https://astral.sh/uv/install.sh | sh && /root/.local/bin/uv venv && /root/.local/bin/uv sync",
-  
+
+  "postCreateCommand": "cd /workspace && apt-get update && apt-get install -y curl git libgl1-mesa-glx libglib2.0-0 && curl -LsSf https://astral.sh/uv/install.sh | sh && /root/.local/bin/uv venv && /root/.local/bin/uv sync --index-strategy unsafe-best-match",
   "remoteUser": "root"
 }
