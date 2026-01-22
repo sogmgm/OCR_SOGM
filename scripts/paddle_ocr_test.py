@@ -7,7 +7,7 @@ import paddleocr
 def process_pdfs_in_folder():
     # 경로 설정
     pdf_folder = Path("pdf")
-    output_folder = Path("output/paddle")
+    output_folder = Path("output/paddle_param")
     
     # 출력 폴더가 없으면 생성
     output_folder.mkdir(parents=True, exist_ok=True)

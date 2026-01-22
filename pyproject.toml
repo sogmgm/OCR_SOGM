@@ -20,4 +20,5 @@ dependencies = [
     "paddleocr[doc-parser]",
     "paddlex[ocr]>=3.3.13",
     "opencv-python",
+    "doclayout-yolo>=0.0.4",
 ]
