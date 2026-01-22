@@ -2,6 +2,9 @@
 index-strategy = "unsafe-best-match"
 
 [[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu126"
+
+[[tool.uv.index]]
 name = "paddle-cu126"
 url = "https://www.paddlepaddle.org.cn/packages/stable/cu126/"
 
@@ -20,5 +23,10 @@ dependencies = [
     "paddleocr[doc-parser]",
     "paddlex[ocr]>=3.3.13",
     "opencv-python",
+    "numpy<2",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "torchaudio>=2.6.0",
     "doclayout-yolo>=0.0.4",
+    "pdfplumber>=0.11.9",
 ]

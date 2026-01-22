@@ -15,11 +15,10 @@ ENV/
 
 # Data
 pdf/
-pdf_imges/
+pdf_img/
 data/
 output/
-models/*.pth
-models/*.pt
+models/
 *.log
 
 # UV
